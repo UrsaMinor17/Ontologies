@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Folk_Tale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Folk_Tale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Modern_Fairy_Tale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Modern_Fairy_Tale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Motif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Motif"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Region -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Region">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Version -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Version">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Arabic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Arabic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Brothers_Grimm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Brothers_Grimm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Chinese"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#English -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#English"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#German -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#German"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Italian"/>
+    
+
+
+    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Persian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Persian"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
