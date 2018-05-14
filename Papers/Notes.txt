@@ -1,0 +1,37 @@
+Toward Automatic Role Identification in Unannotated Folk Tales 
+
+computational narrative studies, story generation systems 
+
+automatically analyzing complex narrative texts, character's social networks 
+gap between NLP and computational narrative 
+
+automatic character extraction and role identification 
+
+unannotated texts 
+
+Propp character vs role concept 
+
+sphere of action = core actions of character that fulfills a role 
+
+action matrices 
+
+
+
+
+general narratological domain knowledge combined with story-specific characters and actions 
+
+narratological knowledge 
+
+framework for identification of Proppian roles 
+
+10 folk tales, focussed on action VERBS 
+
+
+Motivation/Other Works
+extracting and modelling narrative elements from text,  
+production of plot units 
+domain-specific assumptions, external knowledge 
+ 
+
+ 
+ 
