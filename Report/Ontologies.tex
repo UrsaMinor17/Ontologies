@@ -4,7 +4,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 
-\author{Yasar Mahomed Abbas, Franziska Pannach, Yuvika Singh, \\Danielle Rsomething}
+\author{Yasar Mahomed Abbas, Franziska Pannach, \\Danielle Russel, Yuvika Singh,}
 \title{Report Ontologies and Knowledge Bases}
 
 \begin{document}
@@ -12,7 +12,10 @@
 
 
 \section{Objective and Motivation}
-Ontology of Folk Tales 
+Folk and Fairy tales are a substantial part of oral history. They play an important role in the cultural heritage of regions, nations or cultural minorities. In European context, fairy tales have been collected and editored by the Grimm brother's in the beginning of the 19th century. In the African context, the oral tradition of folk tales existed way longer. Presumably, African folk tales are therefore different in terms of structure and motifs than European fairy tales. 
+This project aims to construct an ontology of African folk tales following the approach of Russian folklorist Vladimir Propp. We hope to not only collect and structure African folk tales, but also investigate how they follow Propp's formalism and how motifs and agents are verbalised.  
+
+
 \section{Domain}
 	\subsection{Propp Functions} 
 	Russian folklorist Vladimir Propp introduced 31 invariant functions describing the morphology of the Russian magic folk tale. In his ground breaking 1928 work 'Morphology of the Folk tale', he argues that the narrative of folk tales always follows the same pattern. The narrative functions and the \textit{Dramatis Personae} (agents in the story) he introduced are strictly defined and specify recurrent units from which the tales are constructed. 
@@ -30,7 +33,7 @@ The high formalism of this structuralism allows something as complex and highly 
 
 \section{Conceptualization}
 	\subsection{Existing Work} 
-	Declerck et al. 2017 have introduced an integrated ontology that combined the ATU and the TMI motifs in a complex way. They suggested extending the ontology by including 
+	Declerck et al. 2016 (GWC2016) have introduced an integrated ontology that combined the ATU and the TMI motifs in a complex way. They suggested extending the ontology by including 
 	
 	\begin{itemize}
 		\item Adding more fairy tales that fall into one of the ATU classes
@@ -39,7 +42,20 @@ The high formalism of this structuralism allows something as complex and highly 
 		
 	\end{itemize}	  
 	
-	Aim of this project is to fulfill these three aspects. For the time being, we will concentrate on Ontology anthologies from the South African context. Our ontology will be independent but can be easily added to the existing work once it's published by Declerck et al. 
+	Aim of this project is to fulfil these three aspects. For the time being, we will concentrate on Fairy Tales anthologies from the Southern African context. Our ontology will be independent but can be easily added to the existing work once it's published by Declerck et al. 
+	\subsection{Definition of the Ontology} 
+	We describe our ontology by the following properties $<$ C,I,A,R $>$
+
+\begin{itemize}
+	
+	\item $c_{i} \in C $ set of Classes: Dramatis Personae according to Propp, elements in Proppian functions, motifs according to ATU, e.g. \textit{the hero}, \textit{the claim},       \textit{Domestic Animals} (ATU 200-219)\footnote{ATU motifs are not always single concepts, they can also be a description of content such as \textit{Ogre Frightened by Man} (ATU 1145-1154), nevertheless they will be classes within the scope of this project in contrast to axioms}
+	\item $i_{i} \in I $ set of Instances: The representation of $c_{i}$ in the fairy tales from the anthologies (HERE ANTHOLOGIES EINFUEGEN), e.g. \textit{snow white} 
+	\item $a_{i} \in A$  set of Axioms: Proppian functions, e.g. \textit{Acquisition of Magical Agent} 
+	\item $r_{i} \in R $ set of Relations: Relationships between classes that model the functions, sequential relations of functions, e.g. \textit{before(Return,Pursuit)}, \textit{represents} or \textit{isRepresentedBy}, \textit{appearsInTale}, \textit{containsMotif} (s. Declerck 2017)
+	 
+	 
+	 \subsection{Compentency Questions} 
+\end{itemize}
 \section{Implementation}
 \section{Outview}
 \section{Bibliography}
