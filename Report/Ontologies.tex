@@ -3,6 +3,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{url}
 
 \author{Yasar Mahomed Abbas, Franziska Pannach, \\Danielle Russell, Yuvika Singh}
 \title{Report Ontologies and Knowledge Bases}
@@ -24,6 +25,8 @@ Hence, the ontology is going to contain:
 
 
 \section{Domain}
+	\subsection{Motifs Indexes}
+	Folk tales motifs are usually classified by two motif indices. The Aarne-Thompson-Uther index (ATU)\footnote{\url{http://www.mftd.org/}} is used to classify tales into one category. The categories are relatively wide, describing the main story line of the tale. Therefore, each tale can only have one ATU type. In contrast, the Thompson-Motif-Index (TMI) is more fine grained, describing single motifs, i.e. repeated elements, e.g. characters. The TMI motifs are organized in a hierarchical structure. A tale can be described with more than one TMI motif.\footnote{\url{https://sites.ualberta.ca/urban/Projects/English/Motif_Index.htm}}    
 	\subsection{Propp Functions} 
 	Russian folklorist Vladimir Propp introduced 31 invariant functions describing the morphology of the Russian magic folk tale. In his ground breaking 1928 work 'Morphology of the Folk tale', he argues that the narrative of folk tales always follows the same pattern. The narrative functions and the \textit{Dramatis Personae} (agents in the story) he introduced are strictly defined and specify recurrent units from which the tales are constructed. 
 	Propp set three axioms: 
@@ -35,7 +38,7 @@ Hence, the ontology is going to contain:
 	
 	\end{itemize}
 	
-The high formalism of this structuralism allows something as complex and highly emotional as the folk tale to be pressed in a strict pattern. Thus, they can be further used in automatically processing or when generating new tales. In Computational Linguistics, Propp's functions are used in various ways, such as for automatic markup, classification and annotation (Malec 2010), or as a foundation of an independent XML dialect (Malec 2001,  Lendvai et al. 2010). 
+The high formality of this structuralism allows something as complex and highly emotional as the folk tale to be pressed in a strict pattern. Thus, they can be further used in automatically processing or when generating new tales. In Computational Linguistics, Propp's functions are used in various ways, such as for automatic markup, classification and annotation (Malec 2010), or as a foundation of an independent XML dialect (Malec 2001,  Lendvai et al. 2010). 
 	His approach is still widely used not only in folk tale research but also applied to contemporary work such as the Star Wars Trilogy\footnote{http://jaced.com/2013/02/06/vladimir-propp-science-of-the-fairy-tale/}.   
 
 \section{Conceptualization}
@@ -50,7 +53,7 @@ The high formalism of this structuralism allows something as complex and highly 
 	\end{itemize}	  
 	
 	Aim of this project is to fulfil these three aspects. For the time being, we will concentrate on Fairy Tales anthologies from the Southern African context. Our ontology will be independent but can be easily added to the existing work once it's published by Declerck et al. 
-	\subsection{Definition of the Ontology} 
+	\subsection{Definition of the Ontology}
 	We describe our ontology by the following properties $<$ C,I,A,R $>$
 
 \begin{itemize}
@@ -61,15 +64,110 @@ The high formalism of this structuralism allows something as complex and highly 
 	\item $r_{i} \in R $ set of Relations: Relationships between classes that model the functions, sequential relations of functions, e.g. \textit{before(Return,Pursuit)}, \textit{represents} or \textit{isRepresentedBy}, \textit{appearsInTale}, \textit{containsMotif} (s. Declerck 2017)
 	 
 \end{itemize}
+
+We are using the ATU index for the classification of our motifs, ignoring the TMI motifs for now, since the classification of tales in TMI motifs requires a vast amount of  knowledge in literary studies. Since Declerck et al.'s ontology will cover the TMI motifs, this is not considered a drawback of our work. 
+
 	 \subsection{Compentency Questions}
 	 	\begin{itemize}
 			\item
 		\end{itemize}
 
+	\subsection{Classes}
+	\small 
+%\begin{itemize}
+Tale, Anthology, Editor, Author, Title, Publisher, Date, Person, Object, ATU Class, ATU Number, Description, Proppian Function, Verbalisation, Symbol, Family Member, Hero, Villain, Victim, Seeker, Helper, Donor, Dispatcher, Princess, Princess's Father, False Hero, Magical Agent, Desired Object, Task, Reward 
+%\end{itemize}
+
+	\subsection{Axioms}
+	
+We define some axioms for the publication and the classification of the fairy tales. 
+	\small 
+
+\begin{itemize}
+		\item Each tale is published in an anthology. 
+		\item Each anthology has at least an editor/author, a title, a publisher, and a date of publication.
+		\item Each tale has a title. 
+		\item Each tale has a set of Dramatis Personae. 
+		\item Each tale falls into one of the ATU classes. 
+		\item Each ATU class has an ATU number and a description. 
+		\item If a Proppian function applies for a tale, there is some verbalisation in the text. 
+		\item Proppian functions follow a specific order (see below).
+		\item Each Proppian function has a symbol.
+\end{itemize}
+		
+Furthermore, following Propp's approach, we define our axioms for the description of the narrative as follows: 
+
+\begin{enumerate}
+
+	\item  A member of a family leaves home (the hero is introduced);
+ 	\item  An interdiction is addressed to the hero (’don’t go there’, ‘go to
+this place’);
+	\item  The interdiction is violated (villain enters the tale);
+	\item  The villain makes an attempt at reconnaissance (either villain
+tries to find the children/jewels etc; or intended victim questions
+the villain);
+ 	\item  The villain gains information about the victim;
+ 	\item  The villain attempts to deceive the victim to take possession of
+victim or victim’s belongings (trickery; villain disguised, tries to win
+confidence of victim);
+ 	\item  Victim taken in by deception, unwittingly helping the enemy;
+ 	\item  Villain causes harm/injury to family member (by abduction,
+theft of magical agent, spoiling crops, plunders in other forms,
+causes a disappearance, expels someone, casts spell on someone,
+substitutes child etc, commits murder, imprisons/detains someone,
+threatens forced marriage, provides nightly torments); Alternatively,
+a member of family lacks something or desires something (magical
+potion etc);
+ 	\item  Misfortune or lack is made known, (hero is dispatched, hears
+call for help etc/ alternative is that victimized hero is sent away,
+freed from imprisonment);
+ 	\item  Seeker agrees to, or decides upon counter-action;
+	\item  Hero leaves home;
+ 	\item  Hero is tested, interrogated, attacked etc, preparing the way
+for his/her receiving magical agent or helper (donor);
+ 	\item  Hero reacts to actions of future donor (withstands/fails the
+test, frees captive, reconciles disputants, performs service, uses
+adversary’s powers against them);
+ \item  Hero acquires use of a magical agent (directly transferred,
+located, purchased, prepared, spontaneously appears, eaten/drunk,
+help offered by other characters);
+ \item  Hero is transferred, delivered or led to whereabouts of an
+object of the search;
+	\item  Hero and villain join in direct combat;
+	\item  Hero is branded (wounded/marked, receives ring or scarf);
+	 \item  Villain is defeated (killed in combat, defeated in contest, killed
+while asleep, banished);
+ 	\item  Initial misfortune or lack is resolved (object of search
+distributed, spell broken, slain person revived, captive freed);
+ 	\item  Hero returns;
+	\item  Hero is pursued (pursuer tries to kill, eat, undermine the hero);
+	\item   Hero is rescued from pursuit (obstacles delay pursuer, hero
+hides or is hidden, hero transforms unrecognizably, hero saved
+from attempt on his/her life);
+	\item  Hero unrecognized, arrives home or in another country;
+ 	\item  False hero presents unfounded claims;
+ 	\item  Difficult task proposed to the hero (trial by ordeal, riddles, test
+of strength/endurance, other tasks);
+ 	\item  Task is resolved;
+ \item  Hero is recognized (by mark, brand, or thing given to
+him/her);
+ \item False hero or villain is exposed;
+ \item  Hero is given a new appearance (is made whole, handsome,
+new garments etc);
+ \item Villain is punished;
+ \item  Hero marries and ascends the throne (is rewarded/promoted).
+\end{enumerate}
+
+\subsection{Relations}
+
+publishedIn(tale, anthology), editedBy(anthology, editor), publishedBy(tale, publisher), publishedInYear(tale, date), appearsIn(tale, Person), hasClass(tale, ATU), applies(tale, function), isRepresentedAs(function, verbalisation) isFollowedBy(function, function), isPrecededBy(function, function), hasSymbol(function, symbol), isInversed(function), interdicts(person, hero), reconnaissance(villain, object), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain),related(hero, family member), causesHarm(villain, related(hero, family member)), tested(hero, donor), interrogated(hero, donor), attacked(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), branded(hero, object), defeats(hero,villain), pursuedBy(hero, person), rescuedBy(hero, person), proposedTo(task, hero), proposedBy(task, person), resolves(hero, task), recognizedBy(hero, object), marries(hero, person), isRewarded(hero, object)
+ 
+
+\normalsize
+
 \section{Implementation}
 \section{Outview}
 \section{Bibliography}
-
 \bibliography{Bibliography} 
 \bibliographystyle{ieeetr}
 
