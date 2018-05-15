@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=latex 2018.3.8)  15 MAY 2018 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.8)  15 MAY 2018 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,53 +452,73 @@ ices. The Aarne-Thompson-
 
 [1
 
-] [2]
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
  [3]
-Overfull \hbox (20.65117pt too wide) in paragraph at lines 149--151
+Overfull \hbox (20.65117pt too wide) in paragraph at lines 152--154
 []\OT1/cmr/m/n/9 Difficult task pro-posed to the hero (trial by or-deal, rid-dl
 es, test of strength/endurance,
  []
 
-
-Overfull \hbox (5.43375pt too wide) in paragraph at lines 163--164
+[4]
+Overfull \hbox (5.43375pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/9 publishedIn(tale, an-thol-ogy), edit-edBy(anthology, ed-i-tor), 
 pub-lishedBy(tale, pub-lisher),
  []
 
 
-Overfull \hbox (3.2212pt too wide) in paragraph at lines 163--164
+Overfull \hbox (3.2212pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/9 pub-lishedInYear(tale, date), ap-pearsIn(tale, Per-son), has-Cla
 ss(tale, ATU), ap-plies(tale,
  []
 
 
-Overfull \hbox (12.29898pt too wide) in paragraph at lines 163--164
+Overfull \hbox (12.29898pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/9 tim), de-ceives(villain, vic-tim), is-De-ceivedBy(victim, vil-la
 in), take-sPos-ses-sion-From(villain,
  []
 
 
-Overfull \hbox (15.6288pt too wide) in paragraph at lines 163--164
+Overfull \hbox (15.6288pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/9 vic-tim), helpTheEn-emy(victim, vil-lain),related(hero, fam-ily 
 mem-ber), cause-sHarm(villain,
  []
 
 
-Overfull \hbox (6.77957pt too wide) in paragraph at lines 163--164
+Overfull \hbox (6.77957pt too wide) in paragraph at lines 168--169
 \OT1/cmr/m/n/9 posedTo(task, hero), pro-posedBy(task, per-son), re-solves(hero,
  task), rec-og-nizedBy(hero,
  []
 
-[4] (./Ontologies.bbl) [5] (./Ontologies.aux) ) 
+(./Ontologies.bbl) [5] (./Ontologies.aux) ) 
 Here is how much of TeX's memory you used:
- 1546 strings out of 492996
- 16339 string characters out of 6136429
- 75538 words of memory out of 5000000
- 5108 multiletter control sequences out of 15000+600000
- 12615 words of font info for 49 fonts, out of 8000000 for 9000
+ 1553 strings out of 492995
+ 16409 string characters out of 6136403
+ 75541 words of memory out of 5000000
+ 5112 multiletter control sequences out of 15000+600000
+ 13606 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  27i,8n,24p,1116b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
+.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Ontologies.pdf (5 pages, 196387 bytes).
+PDF statistics:
+ 84 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Ontologies.dvi (5 pages, 15708 bytes).

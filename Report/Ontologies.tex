@@ -33,13 +33,13 @@ Hence, the ontology is going to contain:
 	
 	\begin{itemize}
 		\item Not all functions appear in every tale, but they always appear in the same order. 
-		\item I forgot
+		\item I 
 		\item I forgot as well 
 	
 	\end{itemize}
 	
 The high formality of this structuralism allows something as complex and highly emotional as the folk tale to be pressed in a strict pattern. Thus, they can be further used in automatically processing or when generating new tales. In Computational Linguistics, Propp's functions are used in various ways, such as for automatic markup, classification and annotation (Malec 2010), or as a foundation of an independent XML dialect (Malec 2001,  Lendvai et al. 2010). 
-	His approach is still widely used not only in folk tale research but also applied to contemporary work such as the Star Wars Trilogy\footnote{http://jaced.com/2013/02/06/vladimir-propp-science-of-the-fairy-tale/}.   
+	His approach is still widely used not only in folk tale research but also applied to contemporary work such as the Star Wars Trilogy\footnote{http://jaced.com/2013/02/06/vladimir-propp-science-of-the-fairy-tale/}.  Proppian functions can appear in the tale as they are, with modifiers or they can be inverted, e.g. \textit{Hero leaves home} $\rightarrow$ \textit{Hero does not leave home} (explicitely).
 
 \section{Conceptualization}
 	\subsection{Existing Work} 
@@ -75,7 +75,7 @@ We are using the ATU index for the classification of our motifs, ignoring the TM
 	\subsection{Classes}
 	\small 
 %\begin{itemize}
-Tale, Anthology, Editor, Author, Title, Publisher, Date, Person, Object, ATU Class, ATU Number, Description, Proppian Function, Verbalisation, Symbol, Family Member, Hero, Villain, Victim, Seeker, Helper, Donor, Dispatcher, Princess, Princess's Father, False Hero, Magical Agent, Desired Object, Task, Reward 
+Tale, Anthology, Editor, Author, Title, Publisher, Date,Fictional Person, Person, Object, ATU Class, ATU Number, Description, Proppian Function, Verbalisation, Symbol, Family Member, Hero, Villain, Victim, Seeker, Helper, Donor, Dispatcher, Princess, Princess's Father, False Hero, Magical Agent, Desired Object, Task, Reward 
 %\end{itemize}
 
 	\subsection{Axioms}
@@ -96,6 +96,9 @@ We define some axioms for the publication and the classification of the fairy ta
 \end{itemize}
 		
 Furthermore, following Propp's approach, we define our axioms for the description of the narrative as follows: 
+\newpage 
+
+	 $\alpha$ The initial situation. A text may only have a single Initial Situation function. 
 
 \begin{enumerate}
 
@@ -158,10 +161,18 @@ new garments etc);
  \item  Hero marries and ascends the throne (is rewarded/promoted).
 \end{enumerate}
 
-\subsection{Relations}
+If a function applies for a tale, the axiom holds. Not all of the functions/axioms need to be fulfilled by every tale.    
 
-publishedIn(tale, anthology), editedBy(anthology, editor), publishedBy(tale, publisher), publishedInYear(tale, date), appearsIn(tale, Person), hasClass(tale, ATU), applies(tale, function), isRepresentedAs(function, verbalisation) isFollowedBy(function, function), isPrecededBy(function, function), hasSymbol(function, symbol), isInversed(function), interdicts(person, hero), reconnaissance(villain, object), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain),related(hero, family member), causesHarm(villain, related(hero, family member)), tested(hero, donor), interrogated(hero, donor), attacked(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), branded(hero, object), defeats(hero,villain), pursuedBy(hero, person), rescuedBy(hero, person), proposedTo(task, hero), proposedBy(task, person), resolves(hero, task), recognizedBy(hero, object), marries(hero, person), isRewarded(hero, object)
- 
+\subsection{Relations}
+We define the relations based on the axioms. 
+	\subsubsection{Binary relations} 
+
+
+publishedIn(tale, anthology), editedBy(anthology, editor), publishedBy(anthology, publisher), publishedInYear(tale, date), appearsIn(fictional Person, tale), hasClass(tale, ATU), applies(tale, function), isRepresentedAs(function, verbalisation), isFollowedBy(function, function), isPrecededBy(function, function), hasSymbol(function, symbol), isInversed(function), interdicts(fictional person, hero), reconnaissance(villain, object), reconnaissance(villain, victim), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain), related(hero, family member), causesHarm(villain, related(hero, family member)), lacks(hero, object), testedBy(hero, donor), interrogated(hero, donor), attackedBy(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), brandedBy(hero, object), defeats(hero,villain), pursuedBy(hero, fictional person), rescuedBy(hero, fictional person), proposedTo(task, hero), proposedBy(task, fictional person), resolves(hero, task), recognizedBy(hero, object), marries(hero, fictional person), isRewarded(hero, object)
+
+ 	\subsubsection{Unary Relations} 
+ 	leavesHome(familymember), leavesHome(hero) , misfortune(hero), decidesCounterAction(seeker), resolvesMisfortune(object), resolvesMisfortune(fictional person), returns(hero), arrives(hero), presentsUnfoundedClaims(falseHero), newAppearance(hero), isPunished(villain)
+
 
 \normalsize
 
