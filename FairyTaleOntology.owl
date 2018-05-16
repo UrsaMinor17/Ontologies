@@ -1,234 +1,214 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#"
-     xml:base="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/213532608/ontologies/2018/4/untitled-ontology-2"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Folk_Tale -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Folk_Tale">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Language -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Language">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Literary_Tale">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Modern_Fairy_Tale -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Modern_Fairy_Tale">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fairy_Tale"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Motif -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Motif"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Person"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Fictional_Person"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Region -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Region">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Country"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Version -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Version">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Year -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Year">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Arabic -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Arabic"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Brothers_Grimm -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Brothers_Grimm"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Chinese -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Chinese"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#English -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#English"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#German -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#German"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Italian -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Italian"/>
-    
-
-
-    <!-- http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Persian -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Persian"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Antagonist"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Author"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Book"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Collector"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Continent"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/217081419/ontologies/2018/3/untitled-ontology-3#Protagonist"/>
-        </owl:members>
-    </rdf:Description>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/213532608/ontologies/2018/4/untitled-ontology-2">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATU_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proppian_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dispather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Princess&apos;_Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anthology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magical_Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seeker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fictional_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Princess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#False_Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desired_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATU_Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family_Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helper"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Author"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desired_Object"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dispather"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donor"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Editor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#False_Hero"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Member"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fictional_Person"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helper"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magical_Agent"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Princess"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reward"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seeker"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Villain"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Princess&apos;_Father"/>
+        <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Anthology"/>
+        <Class IRI="#Object"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Publisher"/>
+        <Class IRI="#Tale"/>
+        <Class IRI="#Title"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Author"/>
+        <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dispather"/>
+        <Class IRI="#Donor"/>
+        <Class IRI="#False_Hero"/>
+        <Class IRI="#Family_Member"/>
+        <Class IRI="#Helper"/>
+        <Class IRI="#Hero"/>
+        <Class IRI="#Princess"/>
+        <Class IRI="#Seeker"/>
+        <Class IRI="#Villain"/>
+        <Class IRI="#Princess&apos;_Father"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Editor"/>
+        <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Magical_Agent"/>
+        <Class IRI="#Reward"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Villain"/>
+    </DisjointClasses>
+</Ontology>
 
 
 
