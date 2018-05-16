@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.8)  15 MAY 2018 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2018.3.8)  16 MAY 2018 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -406,8 +406,48 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+(c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 (c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -415,37 +455,100 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (./Ontologies.aux)
 \openout1 = `Ontologies.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen114
+\scratchbox=\box30
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen115
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks25
+) (c:/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(c:/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
 
 (c:/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
-Overfull \hbox (7.71358pt too wide) in paragraph at lines 29--30
+Overfull \hbox (7.71358pt too wide) in paragraph at lines 31--32
 \OT1/cmr/m/n/10 Folk tales mo-tifs are usu-ally clas-si-fied by two mo-tif in-d
 ices. The Aarne-Thompson-
  []
@@ -454,71 +557,106 @@ ices. The Aarne-Thompson-
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
  [3]
-Overfull \hbox (20.65117pt too wide) in paragraph at lines 152--154
+Overfull \hbox (20.65117pt too wide) in paragraph at lines 154--156
 []\OT1/cmr/m/n/9 Difficult task pro-posed to the hero (trial by or-deal, rid-dl
 es, test of strength/endurance,
  []
 
 [4]
-Overfull \hbox (5.43375pt too wide) in paragraph at lines 168--169
+Overfull \hbox (4.58377pt too wide) in paragraph at lines 173--174
 \OT1/cmr/m/n/9 publishedIn(tale, an-thol-ogy), edit-edBy(anthology, ed-i-tor), 
-pub-lishedBy(tale, pub-lisher),
+pub-lishedBy(anthology, pub-
  []
 
 
-Overfull \hbox (3.2212pt too wide) in paragraph at lines 168--169
-\OT1/cmr/m/n/9 pub-lishedInYear(tale, date), ap-pearsIn(tale, Per-son), has-Cla
-ss(tale, ATU), ap-plies(tale,
+Overfull \hbox (35.31267pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 ATU), ap-plies(tale, func-tion), is-Rep-re-sentedAs(function, ve
+r-bal-i-sa-tion), is-Fol-lowedBy(function,
  []
 
 
-Overfull \hbox (12.29898pt too wide) in paragraph at lines 168--169
-\OT1/cmr/m/n/9 tim), de-ceives(villain, vic-tim), is-De-ceivedBy(victim, vil-la
-in), take-sPos-ses-sion-From(villain,
+Overfull \hbox (38.67175pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 func-tion), is-Pre-ced-edBy(function, func-tion), has-Sym-bol(fu
+nction, sym-bol), isIn-versed(function),
  []
 
 
-Overfull \hbox (15.6288pt too wide) in paragraph at lines 168--169
-\OT1/cmr/m/n/9 vic-tim), helpTheEn-emy(victim, vil-lain),related(hero, fam-ily 
-mem-ber), cause-sHarm(villain,
+Overfull \hbox (4.41989pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 in-ter-dicts(fictional per-son, hero), re-con-nais-sance(villain
+, ob-ject), re-con-nais-sance(villain,
  []
 
 
-Overfull \hbox (6.77957pt too wide) in paragraph at lines 168--169
-\OT1/cmr/m/n/9 posedTo(task, hero), pro-posedBy(task, per-son), re-solves(hero,
- task), rec-og-nizedBy(hero,
+Overfull \hbox (9.26013pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 vic-tim), gainsIn-for-ma-tion(villain, vic-tim), de-ceives(villa
+in, vic-tim), is-De-ceivedBy(victim,
  []
 
-(./Ontologies.bbl) [5] (./Ontologies.aux) ) 
+
+Overfull \hbox (18.53366pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 vil-lain), take-sPos-ses-sion-From(villain, vic-tim), helpTheEn-
+emy(victim, vil-lain), re-lated(hero,
+ []
+
+
+Overfull \hbox (18.24895pt too wide) in paragraph at lines 173--174
+\OT1/cmr/m/n/9 act-sTo(hero, donor), ac-quires(hero, mag-i-cal agent), ac-quire
+s-From(hero, donor), ledTo(hero,
+ []
+
+
+Overfull \hbox (22.70926pt too wide) in paragraph at lines 176--177
+\OT1/cmr/m/n/9 tion(seeker), re-solvesM-is-for-tune(object), re-solvesM-is-for-
+tune(fictional per-son), re-turns(hero),
+ []
+
+
+Overfull \hbox (33.9932pt too wide) in paragraph at lines 176--177
+\OT1/cmr/m/n/9 ar-rives(hero), pre-sentsUn-found-ed-Claims(falseHero), newAp-pe
+ar-ance(hero), is-Pun-ished(villain) 
+ []
+
+[5] <NewModelClassDiagram.jpg, id=35, 1035.87pt x 2214.02156pt>
+File: NewModelClassDiagram.jpg Graphic file (type jpg)
+
+<use NewModelClassDiagram.jpg>
+Package pdftex.def Info: NewModelClassDiagram.jpg used on input line 184.
+(pdftex.def)             Requested size: 284.85722pt x 608.84093pt.
+
+Overfull \vbox (40.63255pt too high) has occurred while \output is active []
+
+
+[6 <./NewModelClassDiagram.jpg>] (./Ontologies.bbl) [7] (./Ontologies.aux) ) 
 Here is how much of TeX's memory you used:
- 1553 strings out of 492995
- 16409 string characters out of 6136403
- 75541 words of memory out of 5000000
- 5112 multiletter control sequences out of 15000+600000
- 13606 words of font info for 53 fonts, out of 8000000 for 9000
+ 2873 strings out of 492995
+ 35965 string characters out of 6136403
+ 102255 words of memory out of 5000000
+ 6361 multiletter control sequences out of 15000+600000
+ 13914 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,8n,24p,1116b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9
-.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Ontologies.pdf (5 pages, 196387 bytes).
+ 39i,8n,25p,1243b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+0.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on Ontologies.pdf (7 pages, 465068 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 97 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
