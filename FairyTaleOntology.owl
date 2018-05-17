@@ -6,25 +6,23 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/213532608/ontologies/2018/4/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/213532608/ontologies/2018/4/untitled-ontology-2"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Hero"/>
+        <Class IRI="#Reward"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reward"/>
+        <Class IRI="#Hero"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ATU_Class"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Author"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Date"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Villain"/>
@@ -42,9 +40,6 @@
         <Class IRI="#Dispather"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Title"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Princess&apos;_Father"/>
     </Declaration>
     <Declaration>
@@ -57,19 +52,22 @@
         <Class IRI="#Object"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Symbol"/>
+        <Class IRI="#Donor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Donor"/>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishedIn"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Seeker"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Description"/>
+        <Class IRI="#Fictional_Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fictional_Person"/>
+        <DataProperty IRI="#Verbalisation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Princess"/>
@@ -81,10 +79,7 @@
         <Class IRI="#Editor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Publisher"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Verbalisation"/>
+        <DataProperty IRI="#Symbol"/>
     </Declaration>
     <Declaration>
         <Class IRI="#False_Hero"/>
@@ -93,7 +88,13 @@
         <Class IRI="#Desired_Object"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ATU_Number"/>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ATU_Number"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Person"/>
@@ -103,6 +104,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Helper"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Publisher"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Author"/>
@@ -173,41 +177,145 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#Anthology"/>
-        <Class IRI="#Object"/>
-        <Class IRI="#Person"/>
-        <Class IRI="#Publisher"/>
+        <Class IRI="#Author"/>
+        <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dispather"/>
+        <Class IRI="#Donor"/>
+        <Class IRI="#False_Hero"/>
+        <Class IRI="#Family_Member"/>
+        <Class IRI="#Helper"/>
+        <Class IRI="#Hero"/>
+        <Class IRI="#Princess"/>
+        <Class IRI="#Seeker"/>
+        <Class IRI="#Villain"/>
+        <Class IRI="#Princess&apos;_Father"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Editor"/>
+        <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Magical_Agent"/>
+        <Class IRI="#Reward"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Victim"/>
+        <Class IRI="#Villain"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#publishedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publishedIn"/>
         <Class IRI="#Tale"/>
-        <Class IRI="#Title"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Author"/>
-        <Class IRI="#Fictional_Person"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Dispather"/>
-        <Class IRI="#Donor"/>
-        <Class IRI="#False_Hero"/>
-        <Class IRI="#Family_Member"/>
-        <Class IRI="#Helper"/>
-        <Class IRI="#Hero"/>
-        <Class IRI="#Princess"/>
-        <Class IRI="#Seeker"/>
-        <Class IRI="#Villain"/>
-        <Class IRI="#Princess&apos;_Father"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Editor"/>
-        <Class IRI="#Fictional_Person"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Magical_Agent"/>
-        <Class IRI="#Reward"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Victim"/>
-        <Class IRI="#Villain"/>
-    </DisjointClasses>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#publishedIn"/>
+        <Class IRI="#Anthology"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ATU_Number"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Publisher"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Symbol"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Verbalisation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ATU_Number"/>
+        <Class IRI="#ATU_Class"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date"/>
+        <Class IRI="#Anthology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#ATU_Class"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Description"/>
+        <Class IRI="#Proppian_Function"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Publisher"/>
+        <Class IRI="#Anthology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Symbol"/>
+        <Class IRI="#Proppian_Function"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#Anthology"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#Tale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Verbalisation"/>
+        <Class IRI="#Proppian_Function"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Anthology"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ATU_Number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Publisher"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Symbol"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Verbalisation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
 </Ontology>
 
 
