@@ -13,31 +13,46 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#ε_Reconnaissance"/>
+        <Class IRI="#η_Trickery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reward"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Complicity"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ATU_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A13_Villain_orders_someone_to_be_murdered"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#γ1_Interdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
+        <Class IRI="#A12_Villain_effects_a_substitution"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+        <Class IRI="#η2_Direct_application_of_magic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a1_Lack_of_bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a2_Lack_of_magical_agent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#γ_Interdiction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A8_Villain_demands_or_entices_his_victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B6_Hero_condemned_to_death_and_secretly_freed"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Task"/>
@@ -46,16 +61,7 @@
         <Class IRI="#Tale"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Princess&apos;_Father"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#C_Beginning_Counteraction"/>
+        <Class IRI="#A17a_Cannibalism_among_relatives"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Magical_Agent"/>
@@ -64,55 +70,82 @@
         <Class IRI="#Object"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#A2_Villain_takes_away_magical_agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a3_Wondrous_object_is_lacking"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ζ_Delivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B4_Misfortune_is_announced"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Donor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#editedBy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#γ2_Reversed_Interdiction"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Date"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ε3_Reconnaissance_by_other_personages"/>
+        <Class IRI="#A16a_Matrimony_among_relatives"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A_Villainy"/>
+        <Class IRI="#ε3_Reconnaissance_by_other_personages"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E7_Hero_performs_some_other_service"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Verbalisation"/>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Princess"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Verbalisation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Victim"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#↑_Departure"/>
+        <Class IRI="#D9_A_hostile_creature_engages_the_hero_in_combat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#η1_Persuasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#η3_Deception_or_coercion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a6_Various_other_forms"/>
     </Declaration>
     <Declaration>
         <Class IRI="#False_Hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ε1_Finding_the_location_of_an_object_or_person"/>
+        <Class IRI="#B1_A_call_for_help"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Description"/>
+        <Class IRI="#A5_Villain_plunders_in_other_form"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#θ_Complicity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#β3_Member_of_the_younger_generation_absents_himself"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Description"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ATU_Number"/>
@@ -121,37 +154,34 @@
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Trickery"/>
+        <Class IRI="#D10_The_hero_is_shown_a_magical_agent_offered_for_exchange"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Publisher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hero"/>
+        <Class IRI="#A2a_Forcible_seizure_of_magical_helper"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Violation"/>
+        <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Author"/>
+        <Class IRI="#A10_Villain_orders_someone_to_be_thrown_into_the_sea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FollowedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D7_Other_requests"/>
     </Declaration>
     <Declaration>
         <Class IRI="#B_Mediation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ζ3_Other_form_of_information-gathering"/>
+        <Class IRI="#F4_Agent_is_sold_and_purchased"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#β2_Death_of_parents"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Villain"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Proppian_Function"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dispather"/>
+        <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
@@ -160,31 +190,16 @@
         <Class IRI="#Anthology"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E_The_hero&apos;s_reaction"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A4_Villain_seizes_the_daylight"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ζ1_Villain_directly_receives_an_answer_to_his_question"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#publishedIn"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Seeker"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#D_The_first_function_of_the_donor"/>
+        <Class IRI="#d6_Hero_proposes_division"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fictional_Person"/>
@@ -196,6 +211,9 @@
         <DataProperty IRI="#Symbol"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
     </Declaration>
     <Declaration>
@@ -203,6 +221,183 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Desired_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F3_Agent_is_prepared"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A18_Villain_torments_at_night"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E4_He_frees_a_captive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ε_Reconnaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B7_A_lament_is_sung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A11_Villain_casts_spell_upon_someone_or_something"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D8_A_hostile_creature_attempts_to_destroy_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F1_Agent_is_directly_transferred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A15_Villain_imprisons_or_detains_someone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PreceededBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Princess&apos;_Father"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C_Beginning_Counteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F5_Agent_is_found_or_aquired_by_chance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#δ_Violation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a5_Rationalized_forms,_e.g._money,_is_lacking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A14_Villain_murders_someone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#editedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A_Villainy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F8_Agent_is_seized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A9_Villain_expells_someone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#↑_Departure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A6_Villain_causes_bodily_injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A19_Villain_declares_war"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ε1_Finding_the_location_of_an_object_or_person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F2_Agent_is_pointed_out"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B5_Banished_hero_transported_away_from_home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ζ3_Other_form_of_information-gathering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#β2_Death_of_parents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proppian_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dispather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A17_Villain_makes_a_threat_of_cannibalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A16_Villain_threatens_forced_matrimony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seeker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A1_Abduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A3_Villain_pillages_or_spoils_crops"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
@@ -211,17 +406,99 @@
         <DataProperty IRI="#Title"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#a_Lack"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#E4_He_frees_a_captive"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Family_Member"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Helper"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#A10_Villain_orders_someone_to_be_thrown_into_the_sea"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A11_Villain_casts_spell_upon_someone_or_something"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A12_Villain_effects_a_substitution"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A13_Villain_orders_someone_to_be_murdered"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A14_Villain_murders_someone"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A15_Villain_imprisons_or_detains_someone"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A16_Villain_threatens_forced_matrimony"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A16a_Matrimony_among_relatives"/>
+        <Class IRI="#A16_Villain_threatens_forced_matrimony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A17_Villain_makes_a_threat_of_cannibalism"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A17a_Cannibalism_among_relatives"/>
+        <Class IRI="#A17_Villain_makes_a_threat_of_cannibalism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A18_Villain_torments_at_night"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A19_Villain_declares_war"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A1_Abduction"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A2_Villain_takes_away_magical_agent"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A2a_Forcible_seizure_of_magical_helper"/>
+        <Class IRI="#A2_Villain_takes_away_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A3_Villain_pillages_or_spoils_crops"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A4_Villain_seizes_the_daylight"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A5_Villain_plunders_in_other_form"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A6_Villain_causes_bodily_injury"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A8_Villain_demands_or_entices_his_victim"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A9_Villain_expells_someone"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#A_Villainy"/>
         <Class IRI="#Proppian_Function"/>
@@ -229,6 +506,34 @@
     <SubClassOf>
         <Class IRI="#Author"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B1_A_call_for_help"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B4_Misfortune_is_announced"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B5_Banished_hero_transported_away_from_home"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B6_Hero_condemned_to_death_and_secretly_freed"/>
+        <Class IRI="#B_Mediation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B7_A_lament_is_sung"/>
+        <Class IRI="#B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B_Mediation"/>
@@ -239,8 +544,44 @@
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Complicity"/>
-        <Class IRI="#Proppian_Function"/>
+        <Class IRI="#D10_The_hero_is_shown_a_magical_agent_offered_for_exchange"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D7_Other_requests"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D8_A_hostile_creature_attempts_to_destroy_the_hero"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D9_A_hostile_creature_engages_the_hero_in_combat"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#D_The_first_function_of_the_donor"/>
@@ -303,6 +644,42 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#F1_Agent_is_directly_transferred"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F2_Agent_is_pointed_out"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F3_Agent_is_prepared"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F4_Agent_is_sold_and_purchased"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F5_Agent_is_found_or_aquired_by_chance"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F8_Agent_is_seized"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
@@ -343,10 +720,6 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Trickery"/>
-        <Class IRI="#Proppian_Function"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Victim"/>
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
@@ -355,12 +728,28 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Violation"/>
-        <Class IRI="#Proppian_Function"/>
+        <Class IRI="#a1_Lack_of_bride"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#a_Lack"/>
-        <Class IRI="#A_Villainy"/>
+        <Class IRI="#a2_Lack_of_magical_agent"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a3_Wondrous_object_is_lacking"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a6_Various_other_forms"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#d6_Hero_proposes_division"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
@@ -388,6 +777,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#δ_Violation"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
@@ -419,12 +812,52 @@
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#η1_Persuasion"/>
+        <Class IRI="#η_Trickery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#η2_Direct_application_of_magic"/>
+        <Class IRI="#η_Trickery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#η3_Deception_or_coercion"/>
+        <Class IRI="#η_Trickery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#η_Trickery"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
+        <Class IRI="#θ_Complicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
+        <Class IRI="#θ_Complicity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#θ_Complicity"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#E_The_hero&apos;s_reaction"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Princess&apos;_Father"/>
         <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a5_Rationalized_forms,_e.g._money,_is_lacking"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a_Villainy_(Lack)"/>
+        <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
@@ -438,31 +871,95 @@
         <Class IRI="#A_Villainy"/>
         <Class IRI="#B_Mediation"/>
         <Class IRI="#C_Beginning_Counteraction"/>
-        <Class IRI="#Complicity"/>
         <Class IRI="#D_The_first_function_of_the_donor"/>
         <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
-        <Class IRI="#Trickery"/>
-        <Class IRI="#Violation"/>
         <Class IRI="#β_Absentation"/>
         <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#δ_Violation"/>
         <Class IRI="#ε_Reconnaissance"/>
         <Class IRI="#ζ_Delivery"/>
+        <Class IRI="#η_Trickery"/>
+        <Class IRI="#θ_Complicity"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+        <Class IRI="#a_Villainy_(Lack)"/>
+        <Class IRI="#↑_Departure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#A_Villainy"/>
+        <Class IRI="#B_Mediation"/>
+        <Class IRI="#C_Beginning_Counteraction"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+        <Class IRI="#β_Absentation"/>
+        <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#δ_Violation"/>
+        <Class IRI="#ε_Reconnaissance"/>
+        <Class IRI="#ζ_Delivery"/>
+        <Class IRI="#η_Trickery"/>
+        <Class IRI="#θ_Complicity"/>
         <Class IRI="#E_The_hero&apos;s_reaction"/>
         <Class IRI="#↑_Departure"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#A_Villainy"/>
-        <Class IRI="#Complicity"/>
-        <Class IRI="#Trickery"/>
-        <Class IRI="#Violation"/>
         <Class IRI="#β_Absentation"/>
         <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#δ_Violation"/>
         <Class IRI="#ε_Reconnaissance"/>
         <Class IRI="#ζ_Delivery"/>
+        <Class IRI="#η_Trickery"/>
+        <Class IRI="#θ_Complicity"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Author"/>
         <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#B1_A_call_for_help"/>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+        <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
+        <Class IRI="#B4_Misfortune_is_announced"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#B1_A_call_for_help"/>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+        <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
+        <Class IRI="#B4_Misfortune_is_announced"/>
+        <Class IRI="#B5_Banished_hero_transported_away_from_home"/>
+        <Class IRI="#B6_Hero_condemned_to_death_and_secretly_freed"/>
+        <Class IRI="#B7_A_lament_is_sung"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#D10_The_hero_is_shown_a_magical_agent_offered_for_exchange"/>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+        <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+        <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <Class IRI="#D7_Other_requests"/>
+        <Class IRI="#D8_A_hostile_creature_attempts_to_destroy_the_hero"/>
+        <Class IRI="#D9_A_hostile_creature_engages_the_hero_in_combat"/>
+        <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+        <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+        <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <Class IRI="#D7_Other_requests"/>
+        <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+        <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+        <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Dispather"/>
@@ -489,8 +986,39 @@
         <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
+        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
+        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
+        <Class IRI="#E4_He_frees_a_captive"/>
+        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+        <Class IRI="#E7_Hero_performs_some_other_service"/>
+        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+        <Class IRI="#F1_Agent_is_directly_transferred"/>
+        <Class IRI="#F2_Agent_is_pointed_out"/>
+        <Class IRI="#F3_Agent_is_prepared"/>
+        <Class IRI="#F4_Agent_is_sold_and_purchased"/>
+        <Class IRI="#F5_Agent_is_found_or_aquired_by_chance"/>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
+        <Class IRI="#F8_Agent_is_seized"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Editor"/>
         <Class IRI="#Fictional_Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#F1_Agent_is_directly_transferred"/>
+        <Class IRI="#F2_Agent_is_pointed_out"/>
+        <Class IRI="#F3_Agent_is_prepared"/>
+        <Class IRI="#F4_Agent_is_sold_and_purchased"/>
+        <Class IRI="#F5_Agent_is_found_or_aquired_by_chance"/>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
+        <Class IRI="#F8_Agent_is_seized"/>
+        <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Magical_Agent"/>
@@ -499,6 +1027,14 @@
     <DisjointClasses>
         <Class IRI="#Victim"/>
         <Class IRI="#Villain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#a1_Lack_of_bride"/>
+        <Class IRI="#a2_Lack_of_magical_agent"/>
+        <Class IRI="#a3_Wondrous_object_is_lacking"/>
+        <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
+        <Class IRI="#a6_Various_other_forms"/>
+        <Class IRI="#a5_Rationalized_forms,_e.g._money,_is_lacking"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
@@ -519,6 +1055,23 @@
         <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
         <Class IRI="#ζ3_Other_form_of_information-gathering"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#η1_Persuasion"/>
+        <Class IRI="#η2_Direct_application_of_magic"/>
+        <Class IRI="#η3_Deception_or_coercion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#editedBy"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -531,6 +1084,10 @@
         <ObjectProperty IRI="#publishedIn"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <Class IRI="#Proppian_Function"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#editedBy"/>
         <Class IRI="#Anthology"/>
@@ -543,6 +1100,10 @@
         <ObjectProperty IRI="#publishedIn"/>
         <Class IRI="#Tale"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <Class IRI="#Proppian_Function"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#editedBy"/>
         <Class IRI="#Editor"/>
