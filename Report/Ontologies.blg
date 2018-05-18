@@ -3,9 +3,10 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Ontologies.aux
 The style file: ieeetr.bst
 Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "propp1968"
 You've used 1 entry,
             1876 wiz_defined-function locations,
-            484 strings with 3599 characters,
+            485 strings with 3608 characters,
 and the built_in function-call counts, 195 in all, are:
 = -- 16
 > -- 9
@@ -44,3 +45,4 @@ warning$ -- 0
 while$ -- 1
 width$ -- 2
 write$ -- 12
+(There was 1 warning)

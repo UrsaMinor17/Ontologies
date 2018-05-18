@@ -13,37 +13,49 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#ε_Reconnaissance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Reward"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Hero"/>
+        <Class IRI="#Complicity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ATU_Class"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Author"/>
+        <Class IRI="#γ1_Interdiction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Villain"/>
+        <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#γ_Interdiction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Task"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Proppian_Function"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Tale"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dispather"/>
+        <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Princess&apos;_Father"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anthology"/>
+        <Class IRI="#C_Beginning_Counteraction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Magical_Agent"/>
@@ -52,19 +64,31 @@
         <Class IRI="#Object"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ζ_Delivery"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Donor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#editedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#γ2_Reversed_Interdiction"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Date"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#publishedIn"/>
+        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Seeker"/>
+        <Class IRI="#ε3_Reconnaissance_by_other_personages"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fictional_Person"/>
+        <Class IRI="#A_Villainy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E7_Hero_performs_some_other_service"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Verbalisation"/>
@@ -76,22 +100,19 @@
         <Class IRI="#Victim"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Editor"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Symbol"/>
+        <Class IRI="#↑_Departure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#False_Hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Desired_Object"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Title"/>
+        <Class IRI="#ε1_Finding_the_location_of_an_object_or_person"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#β3_Member_of_the_younger_generation_absents_himself"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ATU_Number"/>
@@ -100,17 +121,130 @@
         <Class IRI="#Person"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Trickery"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Publisher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Violation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B_Mediation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ζ3_Other_form_of_information-gathering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#β2_Death_of_parents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proppian_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dispather"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anthology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ζ1_Villain_directly_receives_an_answer_to_his_question"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publishedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seeker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fictional_Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Editor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Symbol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#β_Absentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desired_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#a_Lack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E4_He_frees_a_captive"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Family_Member"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Helper"/>
     </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Publisher"/>
-    </Declaration>
+    <SubClassOf>
+        <Class IRI="#A_Villainy"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Author"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B_Mediation"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C_Beginning_Counteraction"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Complicity"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+        <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Desired_Object"/>
@@ -125,8 +259,52 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E4_He_frees_a_captive"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E7_Hero_performs_some_other_service"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Editor"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+        <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#False_Hero"/>
@@ -165,6 +343,10 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Trickery"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Victim"/>
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
@@ -173,9 +355,111 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Violation"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#a_Lack"/>
+        <Class IRI="#A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
+        <Class IRI="#β_Absentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#β2_Death_of_parents"/>
+        <Class IRI="#β_Absentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#β3_Member_of_the_younger_generation_absents_himself"/>
+        <Class IRI="#β_Absentation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#β_Absentation"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#γ1_Interdiction"/>
+        <Class IRI="#γ_Interdiction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#γ2_Reversed_Interdiction"/>
+        <Class IRI="#γ_Interdiction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ε1_Finding_the_location_of_an_object_or_person"/>
+        <Class IRI="#ε_Reconnaissance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ε3_Reconnaissance_by_other_personages"/>
+        <Class IRI="#ε_Reconnaissance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ε_Reconnaissance"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ζ1_Villain_directly_receives_an_answer_to_his_question"/>
+        <Class IRI="#ζ_Delivery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
+        <Class IRI="#ζ_Delivery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ζ3_Other_form_of_information-gathering"/>
+        <Class IRI="#ζ_Delivery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ζ_Delivery"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Princess&apos;_Father"/>
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
+        <Class IRI="#ε_Reconnaissance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#↑_Departure"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#A_Villainy"/>
+        <Class IRI="#B_Mediation"/>
+        <Class IRI="#C_Beginning_Counteraction"/>
+        <Class IRI="#Complicity"/>
+        <Class IRI="#D_The_first_function_of_the_donor"/>
+        <Class IRI="#F_Provision_or_receipt_of_a_magical_agent"/>
+        <Class IRI="#Trickery"/>
+        <Class IRI="#Violation"/>
+        <Class IRI="#β_Absentation"/>
+        <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#ε_Reconnaissance"/>
+        <Class IRI="#ζ_Delivery"/>
+        <Class IRI="#E_The_hero&apos;s_reaction"/>
+        <Class IRI="#↑_Departure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#A_Villainy"/>
+        <Class IRI="#Complicity"/>
+        <Class IRI="#Trickery"/>
+        <Class IRI="#Violation"/>
+        <Class IRI="#β_Absentation"/>
+        <Class IRI="#γ_Interdiction"/>
+        <Class IRI="#ε_Reconnaissance"/>
+        <Class IRI="#ζ_Delivery"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Author"/>
         <Class IRI="#Fictional_Person"/>
@@ -193,6 +477,18 @@
         <Class IRI="#Princess&apos;_Father"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
+        <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
+        <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
+        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
+        <Class IRI="#E4_He_frees_a_captive"/>
+        <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+        <Class IRI="#E7_Hero_performs_some_other_service"/>
+        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Editor"/>
         <Class IRI="#Fictional_Person"/>
     </DisjointClasses>
@@ -204,14 +500,57 @@
         <Class IRI="#Victim"/>
         <Class IRI="#Villain"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#β1_Member_of_the_older_generation_absents_himself"/>
+        <Class IRI="#β2_Death_of_parents"/>
+        <Class IRI="#β3_Member_of_the_younger_generation_absents_himself"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#γ1_Interdiction"/>
+        <Class IRI="#γ2_Reversed_Interdiction"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ε1_Finding_the_location_of_an_object_or_person"/>
+        <Class IRI="#ε3_Reconnaissance_by_other_personages"/>
+        <Class IRI="#ε2_Inverted_Reconnaissance,_victim_questions_villain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ζ1_Villain_directly_receives_an_answer_to_his_question"/>
+        <Class IRI="#ζ2_Inverted_form_of_information-gathering"/>
+        <Class IRI="#ζ3_Other_form_of_information-gathering"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#editedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#publishedIn"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#editedBy"/>
+        <Class IRI="#Anthology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Tale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#publishedIn"/>
         <Class IRI="#Tale"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#editedBy"/>
+        <Class IRI="#Editor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#publishedIn"/>
         <Class IRI="#Anthology"/>
