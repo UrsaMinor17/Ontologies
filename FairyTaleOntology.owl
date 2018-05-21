@@ -163,9 +163,6 @@
         <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dispather"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#T3_Hero_puts_on_new_garments"/>
     </Declaration>
     <Declaration>
@@ -532,6 +529,9 @@
         <Class IRI="#Princess&apos;_Father"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Dispatcher"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
     </Declaration>
     <Declaration>
@@ -833,6 +833,13 @@
         <Class IRI="#VIII_A_Villainy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anthology"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#editedBy"/>
+            <Class IRI="#Editor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Author"/>
         <Class IRI="#Person"/>
     </SubClassOf>
@@ -909,7 +916,7 @@
         <Class IRI="#Object"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dispather"/>
+        <Class IRI="#Dispatcher"/>
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
@@ -1009,6 +1016,13 @@
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fictional_Person"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appearsIn"/>
+            <Class IRI="#Tale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#G1_Hero_flies_through_the_air"/>
         <Class IRI="#XV_G_Spatial_transference_between_two_kingdoms,_guidance"/>
     </SubClassOf>
@@ -1055,6 +1069,27 @@
     <SubClassOf>
         <Class IRI="#Hero"/>
         <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRewarded"/>
+            <Class IRI="#Reward"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#recognizedByMeansof"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#resolves"/>
+            <Class IRI="#Task"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#I1_The_villain_is_beaten_in_open_combat"/>
@@ -1181,6 +1216,13 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Proppian_Function"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Tale"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Q_Recognition"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
@@ -1239,6 +1281,41 @@
     <SubClassOf>
         <Class IRI="#T4_Rationalized_and_humorous_forms"/>
         <Class IRI="#XXIX_T_Transfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAuthor"/>
+            <Class IRI="#Author"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasClass"/>
+            <Class IRI="#ATU_Class"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#publishedIn"/>
+            <Class IRI="#Anthology"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#proposedBy"/>
+            <Class IRI="#Fictional_Person"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#proposedTo"/>
+            <Class IRI="#Fictional_Person"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#U_neg_Magnanimous_pardon"/>
