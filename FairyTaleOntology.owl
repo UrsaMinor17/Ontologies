@@ -6,12 +6,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/213532608/ontologies/2018/4/FairyTaleOntology">
-    <Prefix name="" IRI="http://www.semanticweb.org/213532608/ontologies/2018/4/untitled-ontology-2"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/213532608/ontologies/2018/4/FairyTaleOntology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#testedBy"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#A8_Villain_demands_or_entices_his_victim"/>
     </Declaration>
@@ -19,10 +22,7 @@
         <Class IRI="#XVI_H_Struggle"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#testedBy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#XI_B_Mediation"/>
+        <NamedIndividual IRI="#GFC_↑"/>
     </Declaration>
     <Declaration>
         <Class IRI="#H2_They_engage_in_a_competition"/>
@@ -52,13 +52,16 @@
         <DataProperty IRI="#Publisher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#η1_Persuasion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F3_Agent_is_prepared"/>
@@ -142,9 +145,6 @@
         <Class IRI="#XIX_K_Liquidation_of_Lack"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Animal_Tales"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#β1_Absentation_of_elders"/>
     </Declaration>
     <Declaration>
@@ -163,6 +163,9 @@
         <Class IRI="#D5_Hero_is_approached_with_a_request_for_mercy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#IX_B_Mediation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T3_Hero_puts_on_new_garments"/>
     </Declaration>
     <Declaration>
@@ -175,10 +178,10 @@
         <Class IRI="#VII_θ_Complicity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#aquires"/>
+        <Class IRI="#Pr3_He_pursues_the_hero,_rapidly_transforming_himself_into_various_animals"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pr3_He_pursues_the_hero,_rapidly_transforming_himself_into_various_animals"/>
+        <ObjectProperty IRI="#aquires"/>
     </Declaration>
     <Declaration>
         <Class IRI="#B1_A_call_for_help"/>
@@ -223,6 +226,9 @@
         <Class IRI="#K5_Object_is_obtained_instantly_by_use_of_magical_agent"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Origin"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#interdicts"/>
     </Declaration>
     <Declaration>
@@ -232,16 +238,19 @@
         <Class IRI="#K11_Object_received_the_same_way_as_magical_agent_(see_F)"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXV_M_Difficult_task"/>
+        <Class IRI="#K1_Object_is_seized_by_force_or_cleverness"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K1_Object_is_seized_by_force_or_cleverness"/>
+        <Class IRI="#XXV_M_Difficult_task"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Date"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Reward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Desired_Object"/>
@@ -268,10 +277,10 @@
         <Class IRI="#G4_The_route_is_shown_to_him"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#γ2_Order_or_Command"/>
+        <Class IRI="#A10_Villain_orders_someone_to_be_thrown_into_the_sea"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A10_Villain_orders_someone_to_be_thrown_into_the_sea"/>
+        <Class IRI="#γ2_Order_or_Command"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hero"/>
@@ -313,6 +322,9 @@
         <Class IRI="#F4_Agent_is_sold_and_purchased"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GFC_↓"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#XX_↓_Return"/>
     </Declaration>
     <Declaration>
@@ -322,13 +334,16 @@
         <ObjectProperty IRI="#FollowedBy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#reconnaissance"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#E4_He_frees_a_captive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_C"/>
     </Declaration>
     <Declaration>
         <Class IRI="#I3_He_loses_at_cards"/>
@@ -340,13 +355,16 @@
         <Class IRI="#XXX_U_Punishment"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GFC_A"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Verbalisation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#I1_The_villain_is_beaten_in_open_combat"/>
+        <Class IRI="#VI_η_Trickery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VI_η_Trickery"/>
+        <Class IRI="#I1_The_villain_is_beaten_in_open_combat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#II_γ_Interdiction"/>
@@ -365,6 +383,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Alexander_McCall_Smith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FunctionSequence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXXI_W_Wedding"/>
@@ -400,19 +421,19 @@
         <Class IRI="#Rs3_Hero_flees_and_turns_himself_into_objects_making_him_unrecognizable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#T2_Hero_builds_a_marvelous_palace"/>
+        <Class IRI="#T1_New_appearance_is_directly_effected_by_means_of_the_magical_action_of_a_helper"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#T1_New_appearance_is_directly_effected_by_means_of_the_magical_action_of_a_helper"/>
+        <Class IRI="#T2_Hero_builds_a_marvelous_palace"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K10_A_captive_is_freed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#β3_Absentation_of_younger_people"/>
+        <Class IRI="#XXIV_L_Unfounded_claims"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXIV_L_Unfounded_claims"/>
+        <Class IRI="#β3_Absentation_of_younger_people"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tale"/>
@@ -433,16 +454,19 @@
         <Class IRI="#w0_Monetary_reward_or_compensation_in_place_of_princess&apos;_hand"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Key"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#a1_Lack_of_bride"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fictional_Person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#G5_He_makes_use_of_stationary_means_of_communication"/>
+        <ObjectProperty IRI="#rescuedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#rescuedBy"/>
+        <Class IRI="#G5_He_makes_use_of_stationary_means_of_communication"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXVIII_Ex_Exposure"/>
@@ -466,10 +490,10 @@
         <Class IRI="#ATU_Class"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Villain"/>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+        <Class IRI="#Villain"/>
     </Declaration>
     <Declaration>
         <Class IRI="#a5_Rationalized_forms,_e.g._money,_is_lacking"/>
@@ -478,10 +502,16 @@
         <ObjectProperty IRI="#recognizedByMeansof"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GFC_W"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#w1_Berothal_or_promise_of_marriage_if_new_act_of_villainy_happens"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
     </Declaration>
     <Declaration>
         <Class IRI="#w2_Married_hero_loses_his_wife,_resumed_marriage_as_result_of_quest"/>
@@ -490,10 +520,10 @@
         <Class IRI="#U_neg_Magnanimous_pardon"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
+        <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
+        <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXVII_N_Solution"/>
@@ -514,10 +544,13 @@
         <Class IRI="#H1_They_fight_in_an_open_field"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#K9_A_slain_person_is_revived"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#IV_ε_Reconnaissance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K9_A_slain_person_is_revived"/>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_employment_of_magical_or_other_means"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F2_Agent_is_pointed_out"/>
@@ -529,25 +562,25 @@
         <Class IRI="#Princess&apos;_Father"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dispatcher"/>
+        <NamedIndividual IRI="#Wild_Animals_and_Humans"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+        <Class IRI="#Dispatcher"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXIX_T_Transfiguration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K7_Object_is_caught"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#H4_Weighing"/>
+        <Class IRI="#Rs10_He_jumps_to_another_tree"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rs10_He_jumps_to_another_tree"/>
+        <Class IRI="#H4_Weighing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A15_Villain_imprisons_or_detains_someone"/>
@@ -592,6 +625,9 @@
         <Class IRI="#XV_G_Spatial_transference_between_two_kingdoms,_guidance"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GFC_I"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A19_Villain_declares_war"/>
     </Declaration>
     <Declaration>
@@ -616,10 +652,13 @@
         <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#F1_Agent_is_directly_transferred"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A14_Villain_murders_someone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F1_Agent_is_directly_transferred"/>
+        <ObjectProperty IRI="#frees"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#publishedIn"/>
@@ -631,6 +670,9 @@
         <Class IRI="#D1_Donor_tests_the_hero"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GFC_H"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#F5_Agent_is_found_or_aquired_by_chance"/>
     </Declaration>
     <Declaration>
@@ -638,6 +680,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Rs1_He_is_carried_away_through_the_air"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_ß"/>
     </Declaration>
     <Declaration>
         <Class IRI="#J2_Hero_receives_a_ring_or_a_towel_or_a_handkerchief"/>
@@ -658,13 +703,16 @@
         <Class IRI="#III_δ_Violation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D7_Other_requests"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Rs5_Hero_is_hidden_by_blacksmiths"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D7_Other_requests"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#H3_They_play_cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_K"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interrogated"/>
@@ -712,28 +760,31 @@
         <Class IRI="#Rs4_Hero_hides_himself_during_his_flight"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
     </Declaration>
     <Declaration>
         <Class IRI="#δ1_Interdiction_violated"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
+        <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A9_Villain_expells_someone"/>
+        <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#A9_Villain_expells_someone"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#a3_Wondrous_object_is_lacking"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#deceived"/>
+        <Class IRI="#Magical_Agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Magical_Agent"/>
+        <ObjectProperty IRI="#deceived"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Victim"/>
@@ -833,43 +884,36 @@
         <Class IRI="#VIII_A_Villainy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Anthology"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#editedBy"/>
-            <Class IRI="#Editor"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Author"/>
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B1_A_call_for_help"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B2_Hero_is_dispatched_directly"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B4_Misfortune_is_announced"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B5_Banished_hero_transported_away_from_home"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B6_Hero_condemned_to_death_and_secretly_freed"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B7_A_lament_is_sung"/>
-        <Class IRI="#XI_B_Mediation"/>
+        <Class IRI="#IX_B_Mediation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#D10_The_hero_is_shown_a_magical_agent_offered_for_exchange"/>
@@ -1071,27 +1115,6 @@
         <Class IRI="#Fictional_Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Hero"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isRewarded"/>
-            <Class IRI="#Reward"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hero"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#recognizedByMeansof"/>
-            <Class IRI="#Object"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Hero"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#resolves"/>
-            <Class IRI="#Task"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#I1_The_villain_is_beaten_in_open_combat"/>
         <Class IRI="#XVIII_I_Victory"/>
     </SubClassOf>
@@ -1125,6 +1148,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IV_ε_Reconnaissance"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IX_B_Mediation"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
@@ -1283,41 +1310,6 @@
         <Class IRI="#XXIX_T_Transfiguration"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tale"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasAuthor"/>
-            <Class IRI="#Author"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tale"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#hasClass"/>
-            <Class IRI="#ATU_Class"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tale"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#publishedIn"/>
-            <Class IRI="#Anthology"/>
-        </ObjectExactCardinality>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Task"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#proposedBy"/>
-            <Class IRI="#Fictional_Person"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Task"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#proposedTo"/>
-            <Class IRI="#Fictional_Person"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#U_neg_Magnanimous_pardon"/>
         <Class IRI="#XXX_U_Punishment"/>
     </SubClassOf>
@@ -1367,10 +1359,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#XIX_K_Liquidation_of_Lack"/>
-        <Class IRI="#Proppian_Function"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#XI_B_Mediation"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
@@ -1526,7 +1514,7 @@
         <Class IRI="#VII_θ_Complicity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_employment_of_magical_or_other_means"/>
         <Class IRI="#VII_θ_Complicity"/>
     </SubClassOf>
     <SubClassOf>
@@ -1597,15 +1585,6 @@
         <Class IRI="#ε2_Inverted_Reconnaissance,Reconnaissance_by_the_hero_to_obtain_information_about_the_villain"/>
         <Class IRI="#IV_ε_Reconnaissance"/>
     </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#ATU_Class"/>
-        <Class IRI="#Anthology"/>
-        <Class IRI="#Object"/>
-        <Class IRI="#Person"/>
-        <Class IRI="#Proppian_Function"/>
-        <Class IRI="#Tale"/>
-        <Class IRI="#Task"/>
-    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Author"/>
         <Class IRI="#Fictional_Person"/>
@@ -1833,20 +1812,223 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
-        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_emplozment_of_magical_or_other_means"/>
+        <Class IRI="#θ2_Hero_mechanically_reacts_to_the_employment_of_magical_or_other_means"/>
     </DisjointClasses>
     <ClassAssertion>
-        <Class IRI="#ATU_Class"/>
-        <NamedIndividual IRI="#Animal_Tales"/>
+        <Class IRI="#VIII_A_Villainy"/>
+        <NamedIndividual IRI="#GFC_A"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Anthology"/>
-        <NamedIndividual IRI="#Children_of_Wax"/>
+        <Class IRI="#X_C_Beginning_Counteraction"/>
+        <NamedIndividual IRI="#GFC_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVI_H_Struggle"/>
+        <NamedIndividual IRI="#GFC_H"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I5_He_is_killed_without_a_preliminary_fight"/>
+        <NamedIndividual IRI="#GFC_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XIX_K_Liquidation_of_Lack"/>
+        <NamedIndividual IRI="#GFC_K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XXXI_W_Wedding"/>
+        <NamedIndividual IRI="#GFC_W"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I_β_Absentation"/>
+        <NamedIndividual IRI="#GFC_ß"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATU_Class"/>
+        <NamedIndividual IRI="#Wild_Animals_and_Humans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XI_↑_Departure"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XX_↓_Return"/>
+        <NamedIndividual IRI="#GFC_↓"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#editedBy"/>
         <NamedIndividual IRI="#Children_of_Wax"/>
         <NamedIndividual IRI="#Alexander_McCall_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_A"/>
+        <NamedIndividual IRI="#GFC_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_A"/>
+        <NamedIndividual IRI="#GFC_ß"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_A"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_C"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_C"/>
+        <NamedIndividual IRI="#GFC_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_C"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_H"/>
+        <NamedIndividual IRI="#GFC_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_H"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_H"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_I"/>
+        <NamedIndividual IRI="#GFC_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_I"/>
+        <NamedIndividual IRI="#GFC_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_I"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_K"/>
+        <NamedIndividual IRI="#GFC_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_K"/>
+        <NamedIndividual IRI="#GFC_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_K"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causesHarm"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_W"/>
+        <NamedIndividual IRI="#GFC_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_W"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_ß"/>
+        <NamedIndividual IRI="#GFC_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_ß"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+        <NamedIndividual IRI="#Wild_Animals_and_Humans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+        <NamedIndividual IRI="#GFC_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+        <NamedIndividual IRI="#GFC_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#GFC_↓"/>
+        <NamedIndividual IRI="#GFC_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#GFC_↓"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
@@ -1862,6 +2044,106 @@
         <DataProperty IRI="#Title"/>
         <NamedIndividual IRI="#Children_of_Wax"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Children of Wax: African Folk Tales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_A"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">She would pass by Pitipiti’s fields and jeer at her, asking her why she grew crops if she had no mouths to feed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_C"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">He was not going to have his mother insulted in this way</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">he</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the bird</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the child</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_H"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Shouting with anger, she ran out into the fields and killed Pitipiti’s guinea fowl and his friends. Then she took them back to her hut, plucked out her feathers, and began to cook them.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_I"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This, of course, frightened the couple and they immediately seized long knives and stabbed at their stomachs to stop the noise.  As the knives pierced their skins, bright blood flowed freely and they fell to the ground.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_K"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">As they fell, from out of the wounds came the guinea fowl and his friends, crackling with joy at their freedom.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">new young wife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_New_Wife"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">she</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">his mother</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_Pitipiti"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">she</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_W"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">She now owned her husband’s cattle and because of this there were many men waiting to marry her.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_ß"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pitipiti’s husband married another wife.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ßAC↑HIK↓W</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">GFC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATU_Number"/>
+        <NamedIndividual IRI="#Wild_Animals_and_Humans"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">150-199</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_↑"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">[…] and the following day he arose early and flew to the highest tree that overlooked the fields of the new wife.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#GFC_↓"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Soon they were back in the field, eating the last of the grain that was left.</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#FollowedBy"/>
@@ -1913,6 +2195,10 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#editedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#frees"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -2000,12 +2286,6 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="#FollowedBy"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#PreceededBy"/>
-    </FunctionalObjectProperty>
-    <FunctionalObjectProperty>
         <ObjectProperty IRI="#editedBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
@@ -2017,9 +2297,6 @@
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#publishedIn"/>
     </FunctionalObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#combats"/>
-    </SymmetricObjectProperty>
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#marries"/>
     </SymmetricObjectProperty>
@@ -2364,6 +2641,18 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#FunctionSequence"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Key"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Origin"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#Publisher"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -2401,6 +2690,18 @@
     <DataPropertyDomain>
         <DataProperty IRI="#Description"/>
         <Class IRI="#ATU_Class"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FunctionSequence"/>
+        <Class IRI="#Tale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Key"/>
+        <Class IRI="#Tale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Origin"/>
+        <Class IRI="#Tale"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Publisher"/>
@@ -2422,20 +2723,28 @@
         <DataProperty IRI="#Verbalisation"/>
         <Class IRI="#Proppian_Function"/>
     </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-        <Class IRI="#Anthology"/>
-    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#ATU_Number"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Date"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FunctionSequence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Key"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Origin"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2449,10 +2758,6 @@
     <DataPropertyRange>
         <DataProperty IRI="#Verbalisation"/>
         <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
 </Ontology>
 
