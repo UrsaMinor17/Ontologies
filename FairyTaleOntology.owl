@@ -13,10 +13,10 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <ObjectProperty IRI="#testedBy"/>
+        <Class IRI="#XVI_H_Struggle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XVI_H_Struggle"/>
+        <ObjectProperty IRI="#testedBy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A8_Villain_demands_or_entices_his_victim"/>
@@ -25,10 +25,10 @@
         <NamedIndividual IRI="#GFC_↑"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#B4_Misfortune_is_announced"/>
+        <Class IRI="#H2_They_engage_in_a_competition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#H2_They_engage_in_a_competition"/>
+        <Class IRI="#B4_Misfortune_is_announced"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_A"/>
@@ -55,19 +55,19 @@
         <DataProperty IRI="#Publisher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E3_He_renders_or_does_not_render_a_service_to_a_dead_person"/>
+        <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
     </Declaration>
     <Declaration>
         <Class IRI="#η1_Persuasion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#correspondsTo"/>
+        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GFC_Guinea_Fowl"/>
+        <ObjectProperty IRI="#correspondsTo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F3_Agent_is_prepared"/>
@@ -103,10 +103,10 @@
         <Class IRI="#Pr5_Pursuer_tries_to_devour_the_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A13_Villain_orders_someone_to_be_murdered"/>
+        <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
+        <Class IRI="#A13_Villain_orders_someone_to_be_murdered"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A2a_Forcible_seizure_of_magical_helper"/>
@@ -142,10 +142,10 @@
         <NamedIndividual IRI="#AGW_Mother"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+        <Class IRI="#K8_Spell_of_a_person_is_broken"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K8_Spell_of_a_person_is_broken"/>
+        <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Seeker"/>
@@ -190,13 +190,13 @@
         <Class IRI="#VII_θ_Complicity"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#aquires"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#B1_A_call_for_help"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pr3_He_pursues_the_hero,_rapidly_transforming_himself_into_various_animals"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#aquires"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Description"/>
@@ -208,16 +208,16 @@
         <Class IRI="#W12_Bride_and_kingdom_are_awarded_at_once_or_upon_death_of_parents"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A17a_Cannibalism_among_relatives"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#K3_Object_is_obtained_with_help_of_entcements"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
+        <Class IRI="#A17a_Cannibalism_among_relatives"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Princess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T4_Rationalized_and_humorous_forms"/>
@@ -226,10 +226,10 @@
         <Class IRI="#F8_Agent_is_seized"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Realistic_Tales"/>
+        <Class IRI="#ε1_Reconnaissance_by_the_villain_to_obtain_information_about_the_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ε1_Reconnaissance_by_the_villain_to_obtain_information_about_the_hero"/>
+        <NamedIndividual IRI="#Realistic_Tales"/>
     </Declaration>
     <Declaration>
         <Class IRI="#*I1_Multiple_heros_win_a_battle_while_one_of_them_hides"/>
@@ -241,10 +241,10 @@
         <Class IRI="#K5_Object_is_obtained_instantly_by_use_of_magical_agent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#interdicts"/>
+        <DataProperty IRI="#Origin"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Origin"/>
+        <ObjectProperty IRI="#interdicts"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#takesPosessionFrom"/>
@@ -259,10 +259,10 @@
         <Class IRI="#K1_Object_is_seized_by_force_or_cleverness"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Date"/>
+        <Class IRI="#Reward"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reward"/>
+        <DataProperty IRI="#Date"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Guinea_Fowl_Child"/>
@@ -355,10 +355,10 @@
         <ObjectProperty IRI="#FollowedBy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <ObjectProperty IRI="#reconnaissance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#reconnaissance"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_K"/>
@@ -373,16 +373,16 @@
         <Class IRI="#I3_He_loses_at_cards"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXX_U_Punishment"/>
+        <NamedIndividual IRI="#AGW_ζ"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_ζ"/>
+        <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GFC_A"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
+        <Class IRI="#XXX_U_Punishment"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Verbalisation"/>
@@ -403,10 +403,10 @@
         <Class IRI="#XXI_Pr_Pursuit"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A4_Villain_seizes_the_daylight"/>
+        <Class IRI="#ε2_Inverted_Reconnaissance,Reconnaissance_by_the_hero_to_obtain_information_about_the_villain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ε2_Inverted_Reconnaissance,Reconnaissance_by_the_hero_to_obtain_information_about_the_villain"/>
+        <Class IRI="#A4_Villain_seizes_the_daylight"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Alexander_McCall_Smith"/>
@@ -430,10 +430,10 @@
         <Class IRI="#a2_Lack_of_magical_agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#G6_He_follows_bloody_tracks"/>
+        <Class IRI="#VIIIa_a_Villainy_(Lack)"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VIIIa_a_Villainy_(Lack)"/>
+        <Class IRI="#G6_He_follows_bloody_tracks"/>
     </Declaration>
     <Declaration>
         <Class IRI="#D9_A_hostile_creature_engages_the_hero_in_combat"/>
@@ -448,10 +448,10 @@
         <ObjectProperty IRI="#threatens"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Rs3_Hero_flees_and_turns_himself_into_objects_making_him_unrecognizable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rs3_Hero_flees_and_turns_himself_into_objects_making_him_unrecognizable"/>
+        <ObjectProperty IRI="#relatedTo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T1_New_appearance_is_directly_effected_by_means_of_the_magical_action_of_a_helper"/>
@@ -466,10 +466,10 @@
         <Class IRI="#K10_A_captive_is_freed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXIV_L_Unfounded_claims"/>
+        <Class IRI="#β3_Absentation_of_younger_people"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#β3_Absentation_of_younger_people"/>
+        <Class IRI="#XXIV_L_Unfounded_claims"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_δ"/>
@@ -526,16 +526,16 @@
         <NamedIndividual IRI="#AGW_γ"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#VIII_A_Villainy"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ATU_Class"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
+        <Class IRI="#VIII_A_Villainy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Villain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#E9_Hero_vanquishes_or_does_not_vanwuish_his_adversary"/>
     </Declaration>
     <Declaration>
         <Class IRI="#a5_Rationalized_forms,_e.g._money,_is_lacking"/>
@@ -577,10 +577,10 @@
         <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasClass"/>
+        <ObjectProperty IRI="#attackedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#attackedBy"/>
+        <ObjectProperty IRI="#hasClass"/>
     </Declaration>
     <Declaration>
         <Class IRI="#J1_Brand_is_applied_to_the_body"/>
@@ -613,10 +613,10 @@
         <Class IRI="#Dispatcher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
+        <Class IRI="#XXIX_T_Transfiguration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXIX_T_Transfiguration"/>
+        <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K7_Object_is_caught"/>
@@ -637,10 +637,10 @@
         <Class IRI="#K4_Object_of_a_quest_is_obtained_as_direct_result_of_preceding_actions"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_Brother"/>
+        <Class IRI="#G1_Hero_flies_through_the_air"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#G1_Hero_flies_through_the_air"/>
+        <NamedIndividual IRI="#AGW_Brother"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pr1_Pursuer_flies_after_the_hero"/>
@@ -655,10 +655,10 @@
         <Class IRI="#I5_He_is_killed_without_a_preliminary_fight"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
+        <Class IRI="#V_ζ_Delivery"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#V_ζ_Delivery"/>
+        <Class IRI="#F7_Agent_is_eaten_or_drunk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A11_Villain_casts_spell_upon_someone_or_something"/>
@@ -688,10 +688,10 @@
         <Class IRI="#XVIII_I_Victory"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A18_Villain_torments_at_night_Vampirism"/>
+        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
+        <Class IRI="#A18_Villain_torments_at_night_Vampirism"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#marries"/>
@@ -718,10 +718,10 @@
         <Class IRI="#Rs7_He_avoids_the_temptations_of_transformed_she-dragons"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_Girl"/>
+        <Class IRI="#D1_Donor_tests_the_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D1_Donor_tests_the_hero"/>
+        <NamedIndividual IRI="#AGW_Girl"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GFC_H"/>
@@ -739,16 +739,16 @@
         <NamedIndividual IRI="#GFC_ß"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#J2_Hero_receives_a_ring_or_a_towel_or_a_handkerchief"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#A5_Villain_plunders_in_other_form"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#proposedTo"/>
+        <Class IRI="#J2_Hero_receives_a_ring_or_a_towel_or_a_handkerchief"/>
     </Declaration>
     <Declaration>
         <Class IRI="#D4_Prisoner_begs_for_freedom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#proposedTo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XI_↑_Departure"/>
@@ -757,10 +757,10 @@
         <Class IRI="#III_δ_Violation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D7_Other_requests"/>
+        <Class IRI="#Rs5_Hero_is_hidden_by_blacksmiths"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rs5_Hero_is_hidden_by_blacksmiths"/>
+        <Class IRI="#D7_Other_requests"/>
     </Declaration>
     <Declaration>
         <Class IRI="#H3_They_play_cards"/>
@@ -769,19 +769,19 @@
         <NamedIndividual IRI="#GFC_K"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#W1_Hero_marries_without_throne"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#interrogated"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ε3_Reconnaissance_by_other_persons"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXII_Rs_Rescue_of_the_Hero"/>
+        <Class IRI="#W1_Hero_marries_without_throne"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rs6_Hero_saves_himself_while_in_flight_by_means_of_rapid_transformations_into_animals,_stones,_etc."/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XXII_Rs_Rescue_of_the_Hero"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Author"/>
@@ -817,16 +817,16 @@
         <Class IRI="#Rs4_Hero_hides_himself_during_his_flight"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_B"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#GFC_New_Wife"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
+        <NamedIndividual IRI="#AGW_B"/>
     </Declaration>
     <Declaration>
         <Class IRI="#δ1_Interdiction_violated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_↓"/>
@@ -835,19 +835,19 @@
         <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
+        <Class IRI="#a3_Wondrous_object_is_lacking"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#a3_Wondrous_object_is_lacking"/>
+        <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A9_Villain_expells_someone"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#deceived"/>
+        <Class IRI="#Magical_Agent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Magical_Agent"/>
+        <ObjectProperty IRI="#deceived"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Victim"/>
@@ -2094,11 +2094,6 @@
         <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#combats"/>
-        <NamedIndividual IRI="#AGW_Brother"/>
-        <NamedIndividual IRI="#AGW_Cannibal"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#defeats"/>
         <NamedIndividual IRI="#AGW_Brother"/>
         <NamedIndividual IRI="#AGW_Cannibal"/>
@@ -2911,9 +2906,6 @@
     <SymmetricObjectProperty>
         <ObjectProperty IRI="#marries"/>
     </SymmetricObjectProperty>
-    <SymmetricObjectProperty>
-        <ObjectProperty IRI="#relatedTo"/>
-    </SymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#acquiresFrom"/>
     </AsymmetricObjectProperty>
@@ -3020,6 +3012,10 @@
         <Class IRI="#Anthology"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#frees"/>
+        <Class IRI="#Hero"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#gainsInformation"/>
         <Class IRI="#Villain"/>
     </ObjectPropertyDomain>
@@ -3103,10 +3099,6 @@
         <ObjectProperty IRI="#testedBy"/>
         <Class IRI="#Hero"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-        <Class IRI="#Villain"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#FollowedBy"/>
         <Class IRI="#Proppian_Function"/>
@@ -3154,6 +3146,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#editedBy"/>
         <Class IRI="#Editor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#frees"/>
+        <Class IRI="#Victim"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#gainsInformation"/>
@@ -3242,10 +3238,6 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#testedBy"/>
         <Class IRI="#Donor"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-        <Class IRI="#Victim"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#ATU_Number"/>
