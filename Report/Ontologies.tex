@@ -42,12 +42,12 @@ Hence, the ontology is going to contain:
 	
 	\end{enumerate}
 	
-The high formality of this structuralism allows something as complex and highly emotional as the folk tale to be pressed in a strict pattern. Thus, they can be further used in automatically processing or when generating new tales. In Computational Linguistics, Propp's functions are used in various ways, such as for automatic markup, classification and annotation (Malec 2010), or as a foundation of an independent XML dialect (Malec 2001,  Lendvai et al. 2010). 
+The high formality of this structuralism allows something as complex and highly emotional as the folk tale to be pressed in a strict pattern. Thus, they can be further used in automatically processing or when generating new tales. In Computational Linguistics, Propp's functions are used in various ways, such as for automatic markup, classification and annotation (Malec 2010), or as a foundation of an independent XML dialect (\cite{Malec2010}, \cite{Lendvai2010}). 
 	His approach is still widely used not only in folk tale research but also applied to contemporary work such as the Star Wars Trilogy\footnote{http://jaced.com/2013/02/06/vladimir-propp-science-of-the-fairy-tale/}.  Proppian functions can appear in the tale as they are, with modifiers or they can be inverted, e.g. \textit{Hero leaves home} $\rightarrow$ \textit{Hero does not leave home} (explicitely).
 
 \section{Conceptualization}
 	\subsection{Existing Work} 
-	Declerck et al. 2016/2017 (GWC 2016) have introduced an integrated ontology that combined the ATU and the TMI motifs in a complex way. They suggested extending the ontology by including 
+	Declerck et al. 2016/2017 \cite{Declerck2017} have introduced an integrated ontology that combined the ATU and the TMI motifs in a complex way. They suggested extending the ontology by including 
 	
 	\begin{itemize}
 		\item Adding more fairy tales that fall into one of the ATU classes
@@ -63,7 +63,7 @@ The high formality of this structuralism allows something as complex and highly 
 \begin{itemize}
 	
 	\item $c_{i} \in C $ set of Classes: Dramatis Personae according to Propp, elements in Proppian functions, e.g. \textit{the hero}, \textit{the claim}, Proppian functions and subfunctions, classes that describe the publications of the tale (tale, anthology, editor/author)       
-	\item $i_{i} \in I $ set of Instances: The representation of $c_{i}$ in the fairy tales from the anthologies such as \cite{Smith1989}, e.g. \textit{The Girl Who Lived In A Cave}, the functions appearing in those fairytales, the Dramatis Personae,  motifs according to ATU,\footnote{ATU motifs are not always single concepts, they can also be a description of content such as \textit{Ogre Frightened by Man} (ATU 1145-1154), nevertheless they will be classes within the scope of this project in contrast to axioms} 
+	\item $i_{i} \in I $ set of Instances: The representation of $c_{i}$ in the fairy tales from the anthologies such as \cite{Smith1989}, e.g. \textit{The Girl Who Lived In A Cave}, the functions appearing in those fairytales, the Dramatis Personae,  motifs according to ATU\footnote{ATU motifs in contrast to TMI motifs are not always single concepts, they can also be a description of content such as \textit{Ogre Frightened by Man} (ATU 1145-1154), nevertheless they will be classes within the scope of this project in contrast to axioms} 
 	\item $a_{i} \in A$  set of Axioms: Proppian functions, e.g. \textit{Acquisition of Magical Agent}, and axioms describing the publication 
 	\item $r_{i} \in R $ set of Relations: Relationships between classes that model the functions, sequential relations of functions, e.g. \textit{FollowedBy}, \textit{PreceededBy} or \textit{applies} to link the function to a tale, \textit{appearsIn} to link a Dramatis Personae to the tales, relationships linking the Dramatis Personae together, such as \textit{causesHarm}, \textit{combats} or \textit{relatedTo}
 	 
@@ -76,33 +76,30 @@ We are using the ATU index for the classification of our motifs, ignoring the TM
 			\item
 		\end{itemize}
 
-	\subsection{Classes}
-	\small 
-%\begin{itemize}
-Tale, Anthology, Editor, Author, Title, Publisher, Date, Fictional Person, Person, Object, ATU Class, ATU Number, Description, Proppian Function, Verbalisation, Symbol, Family Member, Hero, Villain, Victim, Seeker, Helper, Donor, Dispatcher, Princess, Princess's Father, False Hero, Magical Agent, Desired Object, Task, Reward 
-%\end{itemize}
-
 	\subsection{Axioms}
-	
+	\label{axes}
 We define some axioms for the publication and the classification of the fairy tales. 
 	\small 
 
 \begin{itemize}
 		\item Each tale is published in an anthology. 
-		\item Each anthology has at least an editor/author, a title, a publisher, and a date of publication.
-		\item Each tale has a title. 
+		\item Each anthology has at least one editor, a title, a publisher, and a date of publication.
+		\item Each tale has a title.
+		\item A tale can have an author and an origin.  
 		\item Each tale has a set of Dramatis Personae. 
+		\item Each person is represented by one or many verbalisations.\footnote{e.g. in Snow White 'the stepmother' and 'the evil queen' describe the same individual} 
 		\item Each tale falls into one of the ATU classes. 
 		\item Each ATU class has an ATU number and a description. 
 		\item If a Proppian function applies for a tale, there is some verbalisation in the text. 
-		\item Proppian functions follow a specific order (see below).
-		\item Each Proppian function has a symbol.
+		\item Proppian functions follow a specific order (see below), this order is represented by a sequence. 
+	%	\item Each Proppian function has a symbol. 
 \end{itemize}
 		
-Furthermore, following Propp's approach, we define our axioms for the description of the narrative as follows: 
+Furthermore, following Propp's approach, we define our axioms for the possible description of the narrative as follows \cite{propp1968}: 
+\begin{itemize}
+	\item 	 $\alpha$ The initial situation. A text may only have a single Initial Situation function. 
 
-	 $\alpha$ The initial situation. A text may only have a single Initial Situation function. 
-
+\end{itemize}
 \begin{enumerate}
 
 	\item  A member of a family leaves home (the hero is introduced);
@@ -164,16 +161,22 @@ new garments etc);
  \item  Hero marries and ascends the throne (is rewarded/promoted).
 \end{enumerate}
 
-If a function applies for a tale, the axiom holds. Not all of the functions/axioms need to be fulfilled by every tale.    
+If a function applies for a tale, the axiom holds. Not all of the functions/axioms need to be fulfilled by every tale.
+    
+\subsection{Classes}
+	\small 
+%\begin{itemize}
+Tale, Anthology, Editor, Author, Title, Publisher, Date, Fictional Person, Person, Object, ATU Class, ATU Number, Description, Proppian Function, Verbalisation, Symbol, Family Member, Hero, Villain, Victim, Seeker, Helper, Donor, Dispatcher, Princess, Princess's Father, False Hero, Magical Agent, Desired Object, Task, Reward 
+%\end{itemize}
+
 
 \subsection{Relations}
-We define the relations based on the axioms. 
-	\subsubsection{Binary relations} 
+We define the relations based on the axioms in \ref{axes} . 
 
+publishedIn(tale, anthology), editedBy(anthology, editor), appearsIn(fictional Person, tale), hasClass(tale, ATU), applies(tale, function), FollowedBy(function, function), PrecededBy(function, function), isInversed(function), interdicts(fictional person, hero), reconnaissance(villain, object), reconnaissance(villain, victim), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain), related(hero, family member), causesHarm(villain, related(hero, family member)), lacks(hero, object), testedBy(hero, donor), interrogated(hero, donor), attackedBy(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), brandedBy(hero, object), defeats(hero,villain), pursuedBy(hero, fictional person), rescuedBy(hero, fictional person), proposedTo(task, hero), proposedBy(task, fictional person), resolves(hero, task), recognizedBy(hero, object), marries(hero, fictional person), isRewarded(hero, object)
+\\ \\
+With respect to the unary relations like \textit{leavesHome(hero)}, \textit{isPunished(villain)}, we believe they are sufficiently represented by the function itself and its verbalisation, i.e. the instance of the class. The binary functions, however, allow us to model the relationships between fictional persons in a sense that would otherwise likely be lost.  
 
-publishedIn(tale, anthology), editedBy(anthology, editor), publishedBy(anthology, publisher), publishedInYear(tale, date), appearsIn(fictional Person, tale), hasClass(tale, ATU), applies(tale, function), isRepresentedAs(function, verbalisation), isFollowedBy(function, function), isPrecededBy(function, function), hasSymbol(function, symbol), isInversed(function), interdicts(fictional person, hero), reconnaissance(villain, object), reconnaissance(villain, victim), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain), related(hero, family member), causesHarm(villain, related(hero, family member)), lacks(hero, object), testedBy(hero, donor), interrogated(hero, donor), attackedBy(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), brandedBy(hero, object), defeats(hero,villain), pursuedBy(hero, fictional person), rescuedBy(hero, fictional person), proposedTo(task, hero), proposedBy(task, fictional person), resolves(hero, task), recognizedBy(hero, object), marries(hero, fictional person), isRewarded(hero, object)
-
-% 	\subsubsection{Unary Relations} 
 % 	leavesHome(familymember), leavesHome(hero) , misfortune(hero), decidesCounterAction(seeker), %resolvesMisfortune(object), resolvesMisfortune(fictional person), returns(hero), arrives(hero),  presentsUnfoundedClaims(falseHero), newAppearance(hero), isPunished(villain)
 
 
@@ -185,28 +188,31 @@ publishedIn(tale, anthology), editedBy(anthology, editor), publishedBy(anthology
 	\includegraphics[scale=0.275]{NewModelClassDiagram.jpg}
 \end{figure}
 
+For the scope of this report, we refrain from putting all 31 functions and their subfunction in the UML diagram, since they are merely subfunctions of the class \textit{Proppian Function} and inherit the property \textit{Verbalisation} as well as the \textit{applies} property that connects them to the \textit{Tale} class.\footnote{In the same manner, we use Subfunction in the Description Logic representative for the 31 Proppian functions and their child functions, instead of declaring them as disjoint for each subclass.}  
+
 \subsection{Description Logic}
 
-\begin{tabular}{c|c|c}
-Axioms of Class Hierarchy & Relationship & \\
+\begin{tabular}{|c|c|}
+Axioms of Class Hierarchy & Important Concepts \\
 \hline
-FictionalPerson $\subseteq \exists $ isA.Person  & & \\
-Hero $\subseteq \exists $ isA.FictionalPerson  & & \\
-False Hero $\subseteq \exists $ isA.FictionalPerson  & & \\
 
-Dispatcher $\subseteq \exists $ isA.FictionalPerson  & & \\
-Villain $\subseteq \exists $ isA.FictionalPerson  & & \\
-Donor $\subseteq \exists $ isA.FictionalPerson  & & \\
-Seeker $\subseteq \exists $ isA.FictionalPerson  & & \\
-Helper $\subseteq \exists $ isA.FictionalPerson  & & \\
-Victim $\subseteq \exists $ isA.FictionalPerson  & & \\
-Family Member $\subseteq \exists $ isA.FictionalPerson  & & \\
-Princess $\subseteq \exists $ isA.FictionalPerson  & & \\
-Princess' Father $\subseteq \exists $ isA.FictionalPerson  & & \\
-Editor $\subseteq \exists $ isA.Person  & & \\
-Author $\subseteq \exists $ isA.Person  & & \\
-Desired Object $\subseteq \exists $ isA.Object  & & \\
-Magical Agent $\subseteq \exists $ isA.Person  & & \\
+FictionalPerson $\subseteq \exists $ isA.Person & FictionalPerson $\subseteq \exists$ appearsIn.Tale \\
+Family Member $\subseteq \exists $ isA.FictionalPerson & Tale $\subseteq \exists$ hasClass $=$ 1 ATU$\_$Class  \\
+Princess $\subseteq \exists $ isA.FictionalPerson & ProppianFunction $\subseteq \exists$ applies.Tale \\
+Princess' Father $\subseteq \exists $ isA.FictionalPerson & Tale  $\subseteq \exists$ publishedIn.Anthology   \\
+Hero $\subseteq \exists $ isA.FictionalPerson & Anthology $\subseteq \exists$ editedBy.Editor    \\
+False Hero $\subseteq \exists $ isA.FictionalPerson & False Hero $\subseteq \neg$ Hero  \\
+Victim $\subseteq \exists $ Hero $\cup$ FamilyMember $\cup$ Princess & FamilyMember $\subseteq \exists$ relatedTo.Hero \\
+
+Dispatcher $\subseteq \exists $ isA.FictionalPerson  & Villain $\subseteq \neg$ (Victim $\cap$ Hero) \\
+Villain $\subseteq \exists $ isA.FictionalPerson &  Editor  $\subseteq \neg$ FictionalPerson  \\
+Donor $\subseteq \exists $ isA.FictionalPerson & Author  $\subseteq \neg$ FictionalPerson   \\
+Seeker $\subseteq \exists $ isA.FictionalPerson & Reward $\subseteq \neg$ MagicalAgent  \\
+Helper $\subseteq \exists $ isA.FictionalPerson & Princess $\subseteq \neg$ Princess'Father \\
+Editor $\subseteq \exists $ isA.Person & SubFunction$_{i}$ $\subseteq \neg$ (ProppianFunction $\setminus$ SubFunction$_{i}$ )  \\
+Author $\subseteq \exists $ isA.Person   \\
+Desired Object $\subseteq \exists $ isA.Object   \\
+Magical Agent $\subseteq \exists $ isA.Object  \\
 
 
 

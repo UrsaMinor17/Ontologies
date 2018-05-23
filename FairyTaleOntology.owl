@@ -861,6 +861,14 @@
     <Declaration>
         <ObjectProperty IRI="#resolves"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Victim"/>
+        <ObjectUnionOf>
+            <Class IRI="#Family_Member"/>
+            <Class IRI="#Hero"/>
+            <Class IRI="#Princess"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#A10_Villain_orders_someone_to_be_thrown_into_the_sea"/>
         <Class IRI="#VIII_A_Villainy"/>
@@ -948,6 +956,13 @@
     <SubClassOf>
         <Class IRI="#A9_Villain_expells_someone"/>
         <Class IRI="#VIII_A_Villainy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anthology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#editedBy"/>
+            <Class IRI="#Editor"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Author"/>
@@ -1120,6 +1135,13 @@
     <SubClassOf>
         <Class IRI="#Family_Member"/>
         <Class IRI="#Fictional_Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Family_Member"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatedTo"/>
+            <Class IRI="#Hero"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fictional_Person"/>
@@ -1377,6 +1399,27 @@
     <SubClassOf>
         <Class IRI="#T4_Rationalized_and_humorous_forms"/>
         <Class IRI="#XXIX_T_Transfiguration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tale"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#publishedIn"/>
+            <Class IRI="#Anthology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tale"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasClass"/>
+            <Class IRI="#ATU_Class"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#proposedTo"/>
+            <Class IRI="#Hero"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#U_neg_Magnanimous_pardon"/>
@@ -1752,6 +1795,10 @@
         <Class IRI="#D4*_Prisoner_(Donor)_begs_for_freedom"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Donor"/>
+        <Class IRI="#Hero"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
         <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
         <Class IRI="#E2_Hero_answers_or_does_not_answer_a_greeting"/>
@@ -1799,6 +1846,10 @@
         <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#False_Hero"/>
+        <Class IRI="#Hero"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#G1_Hero_flies_through_the_air"/>
         <Class IRI="#G2_He_travels_on_the_ground_or_on_water"/>
         <Class IRI="#G3_He_is_let"/>
@@ -1813,6 +1864,10 @@
         <Class IRI="#H4_Weighing"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#Helper"/>
+        <Class IRI="#Hero"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Hero"/>
         <Class IRI="#Villain"/>
     </DisjointClasses>
@@ -1824,6 +1879,41 @@
         <Class IRI="#I5_He_is_killed_without_a_preliminary_fight"/>
         <Class IRI="#I6_He_is_banished_directly"/>
         <Class IRI="#*I1_Multiple_heros_win_a_battle_while_one_of_them_hides"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#III_δ_Violation"/>
+        <Class IRI="#II_γ_Interdiction"/>
+        <Class IRI="#IV_ε_Reconnaissance"/>
+        <Class IRI="#IX_B_Mediation"/>
+        <Class IRI="#I_β_Absentation"/>
+        <Class IRI="#VIII_A_Villainy"/>
+        <Class IRI="#VII_θ_Complicity"/>
+        <Class IRI="#VI_η_Trickery"/>
+        <Class IRI="#V_ζ_Delivery"/>
+        <Class IRI="#XII_D_The_first_function_of_the_donor"/>
+        <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
+        <Class IRI="#XIX_K_Liquidation_of_Lack"/>
+        <Class IRI="#XVIII_I_Victory"/>
+        <Class IRI="#XVII_J_Branding"/>
+        <Class IRI="#XVI_H_Struggle"/>
+        <Class IRI="#XXIII_o_Unrecognized_arrival"/>
+        <Class IRI="#XXII_Rs_Rescue_of_the_Hero"/>
+        <Class IRI="#XXIV_L_Unfounded_claims"/>
+        <Class IRI="#XXIX_T_Transfiguration"/>
+        <Class IRI="#XXI_Pr_Pursuit"/>
+        <Class IRI="#XXVIII_Ex_Exposure"/>
+        <Class IRI="#XXVII_Q_Recognition"/>
+        <Class IRI="#XXVI_N_Solution"/>
+        <Class IRI="#XXV_M_Difficult_task"/>
+        <Class IRI="#XXXI_W_Wedding"/>
+        <Class IRI="#XXX_U_Punishment"/>
+        <Class IRI="#X_C_Beginning_Counteraction"/>
+        <Class IRI="#α_Initial_Situation"/>
+        <Class IRI="#VIIIa_a_Villainy_(Lack)"/>
+        <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
+        <Class IRI="#XI_↑_Departure"/>
+        <Class IRI="#XV_G_Spatial_transference_between_two_kingdoms,_guidance"/>
+        <Class IRI="#XX_↓_Return"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#J1_Brand_is_applied_to_the_body"/>
@@ -1858,6 +1948,10 @@
         <Class IRI="#Pr6_The_pursuer_attempts_to_kill_the_hero"/>
         <Class IRI="#Pr7_He_tries_to_gnaw_through_a_tree_in_which_the_hero_is_taking_refuge"/>
         <Class IRI="#Pr3_He_pursues_the_hero,_rapidly_transforming_himself_into_various_animals"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Princess"/>
+        <Class IRI="#Princess&apos;_Father"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Rs10_He_jumps_to_another_tree"/>
@@ -1944,6 +2038,10 @@
     <ClassAssertion>
         <Class IRI="#Villain"/>
         <NamedIndividual IRI="#AGW_Cannibal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family_Member"/>
+        <NamedIndividual IRI="#AGW_Girl"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Victim"/>
@@ -3007,6 +3105,10 @@
         <Class IRI="#Villain"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#correspondsTo"/>
+        <Class IRI="#Proppian_Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#deceived"/>
         <Class IRI="#Villain"/>
     </ObjectPropertyDomain>
@@ -3110,6 +3212,10 @@
         <ObjectProperty IRI="#testedBy"/>
         <Class IRI="#Hero"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#threatens"/>
+        <Class IRI="#Villain"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#FollowedBy"/>
         <Class IRI="#Proppian_Function"/>
@@ -3147,6 +3253,10 @@
         <Class IRI="#Hero"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#correspondsTo"/>
+        <Class IRI="#Proppian_Function"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#deceived"/>
         <Class IRI="#Victim"/>
     </ObjectPropertyRange>
@@ -3177,6 +3287,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#helpsEnemy"/>
         <Class IRI="#Villain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interdicts"/>
+        <Class IRI="#Fictional_Person"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#interdicts"/>
@@ -3253,6 +3367,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#testedBy"/>
         <Class IRI="#Donor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#threatens"/>
+        <Class IRI="#Fictional_Person"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#ATU_Number"/>
@@ -3392,6 +3510,21 @@
         <DataProperty IRI="#Verbalisation"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Proppian_Function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Proppian Functions and subfunction with their original numbering and their class symbols according to Propp: Morphology of the Folk Tale, Univ. of Texas Press, 1968</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#appearsIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A person appears in a tale. Some persons, like Baba Yaga, can appear in more than one tale.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#attackedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Corresponds to function XII. D  &quot;The hero is tested, interrogated, attacked by the donor &quot; Not to be confused with combat between hero and villain</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 

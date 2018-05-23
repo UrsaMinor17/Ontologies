@@ -2,6 +2,21 @@
 % Encoding: UTF-8
 
 
+@Electronic{Declerck2017,
+  Title                    = {Integrated Ontologies for the classification of folk tales},
+
+  Address                  = {Saarbrücken},
+  Author                   = {Declerck, T. and Schäfer, L. and Koleva, N.},
+  HowPublished             = {online, multiple presentations combined},
+  Language                 = {en},
+  Organization             = {DFKI},
+  Url                      = {https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwilj-WIzJvbAhWHKcAKHXfbBW4QFggmMAA&url=http%3A%2F%2Fphiltypo3.uni-koeln.de%2Fsites%2Fspinfo%2Fdch%2FIntegrated_Ontologies_for_the_Classification_of_Folktales.pdf&usg=AOvVaw3sCoqCty8XHD9-PySFKGAW},
+  Year                     = {2017},
+
+  Owner                    = {ursa_minor},
+  Timestamp                = {2018.05.23}
+}
+
 @InProceedings{Lendvai2010,
   Title                    = {Propp Revisited: Integration of Linguistic Markup into Structured Content Descriptors of Tales},
   Author                   = {Piroska Lendvai and Thierry Declerck and Sándor Darányi and Scott Malec},

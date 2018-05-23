@@ -8,6 +8,23 @@ J.~Grimm and W.~Grimm, eds., {\em Kinder- und Hausmärchen}.
 V.~Propp, {\em Morphology of the Folktale}, vol.~10.
 \newblock University of Texas Press, 1968.
 
+\bibitem{Malec2010}
+S.~Malec, ``Autopropp: Toward the automatic markup, classification, and
+  annotation of russian magic tales.,'' in {\em Proceedings of the First
+  International AMICUS Workshop on Automated Motif Discovery in Cultural
+  Heritage and Scientific Communication Texts} (P.~Lendvai, ed.), pp.~112--115,
+  2010.
+
+\bibitem{Lendvai2010}
+P.~Lendvai, T.~Declerck, S.~Darányi, and S.~Malec, ``Propp revisited:
+  Integration of linguistic markup into structured content descriptors of
+  tales,'' in {\em Digital Humanities 2010}, Oxford University Press, 7 2010.
+
+\bibitem{Declerck2017}
+T.~Declerck, L.~Schäfer, and N.~Koleva, ``Integrated ontologies for the
+  classification of folk tales.'' online, multiple presentations combined,
+  2017.
+
 \bibitem{Smith1989}
 A.~M. Smith, ed., {\em Children of Wax: African Folk Tales}.
 \newblock Canongate, 1989.
