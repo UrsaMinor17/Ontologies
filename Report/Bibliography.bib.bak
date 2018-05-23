@@ -79,3 +79,13 @@ Twitter as a Corpus for Sentiment... (PDF Download Available). Available from: h
   Timestamp                = {2018.05.14}
 }
 
+@Book{Smith1989,
+  Title                    = {Children of Wax: African Folk Tales},
+  Editor                   = {Alexander McCall Smith},
+  Publisher                = {Canongate},
+  Year                     = {1989},
+
+  Owner                    = {ursa_minor},
+  Timestamp                = {2018.05.23}
+}
+

@@ -235,6 +235,9 @@
         <Class IRI="#*I1_Multiple_heros_win_a_battle_while_one_of_them_hides"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#XXVI_N_Solution"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#applies"/>
     </Declaration>
     <Declaration>
@@ -490,6 +493,9 @@
         <NamedIndividual IRI="#AGW_H"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isReversed"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#w0_Monetary_reward_or_compensation_in_place_of_princess&apos;_hand"/>
     </Declaration>
     <Declaration>
@@ -569,9 +575,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_β"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#XXVII_N_Solution"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
@@ -1485,10 +1488,6 @@
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#XXVII_N_Solution"/>
-        <Class IRI="#Proppian_Function"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#XXVII_Q_Recognition"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
@@ -1500,6 +1499,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#XXVI_N_Solution"/>
+        <Class IRI="#Proppian_Function"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#XXV_M_Difficult_task"/>
         <Class IRI="#Proppian_Function"/>
     </SubClassOf>
@@ -1507,7 +1510,7 @@
         <Class IRI="#XXV_M_Difficult_task"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#correspondsTo"/>
-            <Class IRI="#XXVII_N_Solution"/>
+            <Class IRI="#XXVI_N_Solution"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2828,6 +2831,10 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isReversed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isRewarded"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -3040,6 +3047,10 @@
         <Class IRI="#Hero"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReversed"/>
+        <Class IRI="#Proppian_Function"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isRewarded"/>
         <Class IRI="#Hero"/>
     </ObjectPropertyDomain>
@@ -3174,6 +3185,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#interrogated"/>
         <Class IRI="#Donor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReversed"/>
+        <Class IRI="#Proppian_Function"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isRewarded"/>
