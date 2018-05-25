@@ -1744,6 +1744,15 @@
         <Class IRI="#IV_ε_Reconnaissance"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#ATU_Class"/>
+        <Class IRI="#Anthology"/>
+        <Class IRI="#Object"/>
+        <Class IRI="#Person"/>
+        <Class IRI="#Proppian_Function"/>
+        <Class IRI="#Tale"/>
+        <Class IRI="#Task"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#Author"/>
         <Class IRI="#Fictional_Person"/>
     </DisjointClasses>

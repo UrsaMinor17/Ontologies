@@ -175,6 +175,7 @@ We define the relations based on the axioms in \ref{axes} .
 
 publishedIn(tale, anthology), editedBy(anthology, editor), appearsIn(fictional Person, tale), hasClass(tale, ATU), applies(tale, function), FollowedBy(function, function), PrecededBy(function, function), isInversed(function), interdicts(fictional person, hero), reconnaissance(villain, object), reconnaissance(villain, victim), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain), related(hero, family member), causesHarm(villain, related(hero, family member)), lacks(hero, object), testedBy(hero, donor), interrogated(hero, donor), attackedBy(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), brandedBy(hero, object), defeats(hero,villain), pursuedBy(hero, fictional person), rescuedBy(hero, fictional person), proposedTo(task, hero), proposedBy(task, fictional person), resolves(hero, task), recognizedBy(hero, object), marries(hero, fictional person), isRewarded(hero, object)
 \\ \\
+Each of the relations describing the relationship between two fictional persons, is tied to one of the functions we described earlier. For example, if and only if the function 31. \textit{W Marriage} applies, we can use the function \textit{marries(hero, fictional person)}. That means, the relationship is tied to the appearance of the function and cannot be used in a different context, e.g. at a beginning of a tale. 
 With respect to the unary relations like \textit{leavesHome(hero)}, \textit{isPunished(villain)}, we believe they are sufficiently represented by the function itself and its verbalisation, i.e. the instance of the class. The binary functions, however, allow us to model the relationships between fictional persons in a sense that would otherwise likely be lost.  
 
 % 	leavesHome(familymember), leavesHome(hero) , misfortune(hero), decidesCounterAction(seeker), %resolvesMisfortune(object), resolvesMisfortune(fictional person), returns(hero), arrives(hero),  presentsUnfoundedClaims(falseHero), newAppearance(hero), isPunished(villain)
@@ -192,6 +193,9 @@ For the scope of this report, we refrain from putting all 31 functions and their
 
 \subsection{Description Logic}
 
+The following tables describes the most important concepts of the folk tale ontology in Description Logic.
+\\
+ 
 \begin{tabular}{|c|c|}
 Axioms of Class Hierarchy & Important Concepts \\
 \hline
@@ -220,6 +224,26 @@ Magical Agent $\subseteq \exists $ isA.Object  \\
 
 
 \section{Implementation}
+In the following section, we describe the implementation of the ontology as it stands \today. 
+We constructed 208 subclasses of OWL:Thing, 37 of which are disjoint. The following three pictures show a part of the classes with their respective subclasses. 
+
+\begin{figure} [H]
+ 	\includegraphics[scale=0.3]{Screen1.png}
+\end{figure}
+
+\begin{figure}[H]
+ 	\includegraphics[scale=0.3]{Screen2.png}
+\end{figure}
+
+
+\begin{figure}[H]
+ 	\includegraphics[scale=0.3]{Screen3.png}
+\end{figure}
+
+
+
+
+
 \section{Outview}
 \section{Bibliography}
 \bibliography{Bibliography} 
