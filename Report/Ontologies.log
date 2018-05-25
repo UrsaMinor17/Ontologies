@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.22)  24 MAY 2018 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.22)  25 MAY 2018 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,86 +566,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-[5] <NewModelClassDiagram.jpg, id=35, 1035.87pt x 2214.02156pt>
-File: NewModelClassDiagram.jpg Graphic file (type jpg)
-
-<use NewModelClassDiagram.jpg>
-Package pdftex.def Info: NewModelClassDiagram.jpg used on input line 189.
-(pdftex.def)             Requested size: 284.85722pt x 608.84093pt.
-
-Overfull \vbox (40.63255pt too high) has occurred while \output is active []
-
-
-[6 <./NewModelClassDiagram.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
-
+[5]
+Overfull \hbox (27.79492pt too wide) in paragraph at lines 181--186
+[] \OT1/cmr/m/n/9 mar-ries(A,B) $\OMS/cmsy/m/n/9 \$ \OT1/cmr/m/n/9 preceededBy(
+$[]$ ProppianFunction$[]$) $\OMS/cmsy/m/n/9 \$ $:$\OT1/cmr/m/n/9 followedBy($[]
+$ ProppianFunction$[]$)
  []
 
 
-Overfull \hbox (137.82602pt too wide) in paragraph at lines 199--224
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 181--186
+
  []
 
-<Screen1.png, id=39, 1371.1225pt x 770.88pt>
+[6] <UML.jpg, id=40, 1400.23125pt x 2938.98pt>
+File: UML.jpg Graphic file (type jpg)
+ <use UML.jpg>
+Package pdftex.def Info: UML.jpg used on input line 199.
+(pdftex.def)             Requested size: 315.0598pt x 661.28682pt.
+
+Overfull \vbox (93.07845pt too high) has occurred while \output is active []
+
+
+[7 <./UML.jpg>]
+Overfull \hbox (48.49411pt too wide) in paragraph at lines 212--237
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--237
+
+ []
+
+<Screen1.png, id=45, 1305.87875pt x 745.78625pt>
 File: Screen1.png Graphic file (type png)
  <use Screen1.png>
-Package pdftex.def Info: Screen1.png used on input line 231.
-(pdftex.def)             Requested size: 411.33992pt x 231.26578pt.
+Package pdftex.def Info: Screen1.png used on input line 247.
+(pdftex.def)             Requested size: 391.76665pt x 223.7376pt.
 
-Overfull \hbox (66.33992pt too wide) in paragraph at lines 231--232
-[][] 
+Overfull \hbox (46.76665pt too wide) in paragraph at lines 247--248
+ [][] 
  []
 
-[7] <Screen2.png, id=44, 1371.1225pt x 770.88pt>
+[8] <Screen2.png, id=52, 1306.8825pt x 745.78625pt>
 File: Screen2.png Graphic file (type png)
  <use Screen2.png>
-Package pdftex.def Info: Screen2.png used on input line 235.
-(pdftex.def)             Requested size: 411.33992pt x 231.26578pt.
+Package pdftex.def Info: Screen2.png used on input line 253.
+(pdftex.def)             Requested size: 392.06778pt x 223.7376pt.
 
-Overfull \hbox (66.33992pt too wide) in paragraph at lines 235--236
-[][] 
+Overfull \hbox (47.06778pt too wide) in paragraph at lines 253--254
+ [][] 
  []
 
-<Screen3.png, id=45, 1371.1225pt x 770.88pt>
+<Screen3.png, id=53, 1305.87875pt x 746.79pt>
 File: Screen3.png Graphic file (type png)
  <use Screen3.png>
-Package pdftex.def Info: Screen3.png used on input line 240.
-(pdftex.def)             Requested size: 411.33992pt x 231.26578pt.
+Package pdftex.def Info: Screen3.png used on input line 259.
+(pdftex.def)             Requested size: 326.46889pt x 186.69704pt.
+ [9 <./Screen1.png> <./Screen2.png>] <Screen4.png, id=57, 1304.875pt x 746.79pt
+>
+File: Screen4.png Graphic file (type png)
 
-Overfull \hbox (66.33992pt too wide) in paragraph at lines 240--241
-[][] 
- []
+<use Screen4.png>
+Package pdftex.def Info: Screen4.png used on input line 267.
+(pdftex.def)             Requested size: 326.21796pt x 186.69704pt.
+ [10 <./Screen3.png> <./Screen4.png>]
+<Screen5.png, id=61, 1304.875pt x 746.79pt>
+File: Screen5.png Graphic file (type png)
+ <use Screen5.png>
+Package pdftex.def Info: Screen5.png used on input line 275.
+(pdftex.def)             Requested size: 326.21796pt x 186.69704pt.
+File: Screen5.png Graphic file (type png)
 
-[8 <./Screen1.png> <./Screen2.png>] (./Ontologies.bbl) [9 <./Screen3.png>]
+<use Screen5.png>
+Package pdftex.def Info: Screen5.png used on input line 282.
+(pdftex.def)             Requested size: 326.21796pt x 186.69704pt.
+ [11 <./Screen5.png>] [12] (./Ontologies.bbl) [13]
 (./Ontologies.aux) ) 
 Here is how much of TeX's memory you used:
- 2881 strings out of 494910
- 36275 string characters out of 6179836
- 96830 words of memory out of 5000000
- 6105 multiletter control sequences out of 15000+600000
+ 2895 strings out of 494910
+ 36373 string characters out of 6179836
+ 96840 words of memory out of 5000000
+ 6117 multiletter control sequences out of 15000+600000
  13951 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,11n,24p,1102b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,24p,1102b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Ontologies.pdf (9 pages, 904060 bytes).
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextr
+a/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt8.pfb>
+Output written on Ontologies.pdf (13 pages, 611272 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -176,6 +176,16 @@ We define the relations based on the axioms in \ref{axes} .
 publishedIn(tale, anthology), editedBy(anthology, editor), appearsIn(fictional Person, tale), hasClass(tale, ATU), applies(tale, function), FollowedBy(function, function), PrecededBy(function, function), isInversed(function), interdicts(fictional person, hero), reconnaissance(villain, object), reconnaissance(villain, victim), gainsInformation(villain, victim), deceives(villain, victim), isDeceivedBy(victim, villain), takesPossessionFrom(villain, victim), helpTheEnemy(victim, villain), related(hero, family member), causesHarm(villain, related(hero, family member)), lacks(hero, object), testedBy(hero, donor), interrogated(hero, donor), attackedBy(hero, donor), reactsTo(hero, donor), acquires(hero, magical agent), acquiresFrom(hero, donor), ledTo(hero, desired object), combat(hero, villain), brandedBy(hero, object), defeats(hero,villain), pursuedBy(hero, fictional person), rescuedBy(hero, fictional person), proposedTo(task, hero), proposedBy(task, fictional person), resolves(hero, task), recognizedBy(hero, object), marries(hero, fictional person), isRewarded(hero, object)
 \\ \\
 Each of the relations describing the relationship between two fictional persons, is tied to one of the functions we described earlier. For example, if and only if the function 31. \textit{W Marriage} applies, we can use the function \textit{marries(hero, fictional person)}. That means, the relationship is tied to the appearance of the function and cannot be used in a different context, e.g. at a beginning of a tale. 
+However, the application of the function \textit{W Marriage} does not guarantee that \textit{marries(hero, fictional person)} applies, e.g. when in the tale \textit{Guinea Fowl Child} the heroine is courted, the function \textit{W Wedding} still applies although there is no fictional person instance to fulfill the relationship \textit{marries}. Therefore, we cannot connect the two concepts of the class of the function and it's repective function although they belong together.   
+\newpage
+We could formulate a relationship between the class of the Proppian function and the relation for the given example as: \\
+\label{Rel}
+\small
+marries(A,B) $\cap$ preceededBy($\bigcup\limits_{i=1}^{30}$ ProppianFunction$_{i}$)  $\cap$ $\neg$followedBy($\bigcup\limits_{i=1}^{30}$ ProppianFunction$_{i}$)
+$\cap \exists $ Hero(A) $\cap \exists$ FictionalPerson(B) $\rightarrow$ ( $\exists$ W\_ Marriage $\subseteq$ applies.Tale )\footnote{The function \textit{W Wedding} is function number 31 and therefore the last function is the sequence.} \\
+
+For the scope of this project, it is unrealistic to implement these relationsships for all 31 classes of functions and their subfunctions, especially since it is not always given that the subfunctions inherit the relationship, e.g. the \text{marries(A,B)} function applies not in case the subclass \textit{w1 Promise of marriage} applies. 
+
 With respect to the unary relations like \textit{leavesHome(hero)}, \textit{isPunished(villain)}, we believe they are sufficiently represented by the function itself and its verbalisation, i.e. the instance of the class. The binary functions, however, allow us to model the relationships between fictional persons in a sense that would otherwise likely be lost.  
 
 % 	leavesHome(familymember), leavesHome(hero) , misfortune(hero), decidesCounterAction(seeker), %resolvesMisfortune(object), resolvesMisfortune(fictional person), returns(hero), arrives(hero),  presentsUnfoundedClaims(falseHero), newAppearance(hero), isPunished(villain)
@@ -186,7 +196,7 @@ With respect to the unary relations like \textit{leavesHome(hero)}, \textit{isPu
 \subsection{UML Diagram}
 \begin{figure} [H]
 \centering
-	\includegraphics[scale=0.275]{NewModelClassDiagram.jpg}
+	\includegraphics[scale=0.225]{UML.jpg}
 \end{figure}
 
 For the scope of this report, we refrain from putting all 31 functions and their subfunction in the UML diagram, since they are merely subfunctions of the class \textit{Proppian Function} and inherit the property \textit{Verbalisation} as well as the \textit{applies} property that connects them to the \textit{Tale} class.\footnote{In the same manner, we use Subfunction in the Description Logic representative for the 31 Proppian functions and their child functions, instead of declaring them as disjoint for each subclass.}  
@@ -195,7 +205,10 @@ For the scope of this report, we refrain from putting all 31 functions and their
 
 The following tables describes the most important concepts of the folk tale ontology in Description Logic.
 \\
- 
+\small
+\begin{table}[H]
+\centering
+
 \begin{tabular}{|c|c|}
 Axioms of Class Hierarchy & Important Concepts \\
 \hline
@@ -213,7 +226,7 @@ Villain $\subseteq \exists $ isA.FictionalPerson &  Editor  $\subseteq \neg$ Fic
 Donor $\subseteq \exists $ isA.FictionalPerson & Author  $\subseteq \neg$ FictionalPerson   \\
 Seeker $\subseteq \exists $ isA.FictionalPerson & Reward $\subseteq \neg$ MagicalAgent  \\
 Helper $\subseteq \exists $ isA.FictionalPerson & Princess $\subseteq \neg$ Princess'Father \\
-Editor $\subseteq \exists $ isA.Person & SubFunction$_{i}$ $\subseteq \neg$ (ProppianFunction $\setminus$ SubFunction$_{i}$ )  \\
+Editor $\subseteq \exists $ isA.Person & \tiny SubFunction$_{i}$ $\subseteq \neg$ (ProppianFunction $\setminus$ SubFunction$_{i}$ )   \\
 Author $\subseteq \exists $ isA.Person   \\
 Desired Object $\subseteq \exists $ isA.Object   \\
 Magical Agent $\subseteq \exists $ isA.Object  \\
@@ -221,31 +234,65 @@ Magical Agent $\subseteq \exists $ isA.Object  \\
 
 
 \end{tabular} 
-
+\end{table}
 
 \section{Implementation}
 In the following section, we describe the implementation of the ontology as it stands \today. 
-We constructed 208 subclasses of OWL:Thing, 37 of which are disjoint. The following three pictures show a part of the classes with their respective subclasses. 
+We constructed 208 subclasses of OWL:Thing, 37 of which are disjoint. The following three pictures show a part of the classes with their respective subclasses. We followed a naming convention for the Proppian functions, trying to stay as close to the source \cite{propp1968} as possible. Propp numbered all the functions using roman letters, gave each of them a unique symbol and a short description. Therefore, our class names for the Proppian functions follow the scheme \textit{IX\_B\_Mediation}.
+
+
 
 \begin{figure} [H]
+\centering
  	\includegraphics[scale=0.3]{Screen1.png}
+ 	\caption{Upper level of the subclasses}
 \end{figure}
 
 \begin{figure}[H]
+\centering
  	\includegraphics[scale=0.3]{Screen2.png}
+ 	\caption{Level of Proppian functions and their subfunctions}
 \end{figure}
-
 
 \begin{figure}[H]
- 	\includegraphics[scale=0.3]{Screen3.png}
+\centering
+ 	\includegraphics[scale=0.25]{Screen3.png}
+ 	\caption{Level of Dramatis Personae}
 \end{figure}
 
+The object properties are mainly the relations between the Dramatis Personae. They do not inheretely follow a hierarchical structure. Therefore, the hierarchy of the object properties is wide but relatively flat. Where necessary, an rdf:comment describes the use of the property. 
+
+\begin{figure}[H]
+\centering
+ 	\includegraphics[scale=0.25]{Screen4.png}
+ 	\caption{Object Properties}
+\end{figure}
+\newpage
+
+Data properties are kept relatively simple. They are used to describe the publication of the anthology, the ATU Class, the tale, or the proppian function. 
+\begin{figure}[H]
+\centering
+ 	\includegraphics[scale=0.25]{Screen5.png}
+ 	\caption{Data Properties}
+\end{figure}
+
+We addeed the anthologies, folk tales, their ATU classes, their functions as well as the Dramatis Personae as individuals to our database. Currently, \today , we included XXXXX fairy tales, including XXXX functions and XXXX dramatis personae.
+\begin{figure}[H]
+\centering
+ 	\includegraphics[scale=0.25]{Screen5.png}
+ 	\caption{Instances HERE INSTANCES EINFUEGEN, Wrong bild}
+\end{figure}
+\newpage
 
 
 
-
-\section{Outview}
+\section{Conclusion and Outview}
+We built a sophisticated ontology that represents the Proppian theory about the Morphology of the Folk Tale.\cite{propp1968} It also allows users to comfortably add more stories. The ontology can be alonestanding, or it can be connected to Declerck et.al.'s \cite{Declerck2017} work once their fairy tale motif ontology is published. In the long term, modelling the relationship between the functions, and the Dramatis Personae, like in the example in section \ref{Rel} could be useful. Also, adding more annotations with comments about the usage of classes of Proppian functions and their connection to the relations as described in \ref{Rel} would certainly increase the usability of the system.
+ The more fairy tales of different origin are added, the more and complexer the deductions about the structure and verbalisation of African folk tales can be made. Certainly, these deductions can only be made with the help of scholars from folklorist or literary studies. Furthermore, it would be interesting to compare these findings about African folk tales to studies of folk tales of different origin, such as Russian, Central European or Native American tales. 
+\newpage
+    
 \section{Bibliography}
+
 \bibliography{Bibliography} 
 \bibliographystyle{ieeetr}
 
