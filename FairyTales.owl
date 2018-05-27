@@ -226,10 +226,10 @@
         <Class IRI="#A17a_Cannibalism_among_relatives"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Princess"/>
+        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A7_Villain_causes_sudden_disappearance"/>
+        <Class IRI="#Princess"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T4_Rationalized_and_humorous_forms"/>
@@ -3775,6 +3775,7 @@
         <DataProperty IRI="#Verbalisation"/>
         <ObjectUnionOf>
             <Class IRI="#Fictional_Person"/>
+            <Class IRI="#Object"/>
             <Class IRI="#Proppian_Function"/>
         </ObjectUnionOf>
     </DataPropertyDomain>
