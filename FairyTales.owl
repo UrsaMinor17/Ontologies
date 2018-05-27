@@ -97,6 +97,9 @@
         <ObjectProperty IRI="#brandedBy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WLR_Bee_Stings"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A2_Villain_takes_away_magical_agent"/>
     </Declaration>
     <Declaration>
@@ -2189,7 +2192,7 @@
         <NamedIndividual IRI="#Guinea_Fowl_Child"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Author"/>
+        <Class IRI="#Editor"/>
         <NamedIndividual IRI="#Nick_Greaves"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2202,6 +2205,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Object"/>
+        <NamedIndividual IRI="#WLR_Bee_Stings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
         <NamedIndividual IRI="#WLR_Bees"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -2709,7 +2716,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#brandedBy"/>
         <NamedIndividual IRI="#WLR_Lion"/>
-        <NamedIndividual IRI="#WLR_Bees"/>
+        <NamedIndividual IRI="#WLR_Bee_Stings"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#FollowedBy"/>
@@ -2737,7 +2744,7 @@
         <NamedIndividual IRI="#Why_Does_the_Lion_Roar"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="#editedBy"/>
         <NamedIndividual IRI="#When_Hippo_Was_Hairy_And_Other_Tales_From_Africa"/>
         <NamedIndividual IRI="#Nick_Greaves"/>
     </ObjectPropertyAssertion>
@@ -3035,6 +3042,11 @@
         <DataProperty IRI="#ATU_Number"/>
         <NamedIndividual IRI="#Realistic_Tales"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">850-999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WLR_Bee_Stings"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">stung</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
