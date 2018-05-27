@@ -2148,6 +2148,10 @@
         <NamedIndividual IRI="#Alexander_McCall_Smith"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Anthology"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#VIII_A_Villainy"/>
         <NamedIndividual IRI="#GFC_A"/>
     </ClassAssertion>
