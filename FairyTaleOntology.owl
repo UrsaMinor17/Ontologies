@@ -25,13 +25,10 @@
         <NamedIndividual IRI="#GFC_↑"/>
     </Declaration>
     <Declaration>
-<<<<<<< HEAD
-=======
-        <NamedIndividual IRI="#WLR_G3"/>
+        <Class IRI="#B4_Misfortune_is_announced"/>
     </Declaration>
     <Declaration>
->>>>>>> master
-        <Class IRI="#B4_Misfortune_is_announced"/>
+        <NamedIndividual IRI="#WLR_G3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#H2_They_engage_in_a_competition"/>
@@ -49,10 +46,10 @@
         <ObjectProperty IRI="#isRewarded"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
     </Declaration>
     <Declaration>
         <Class IRI="#I_β_Absentation"/>
@@ -410,6 +407,9 @@
         <Class IRI="#I3_He_loses_at_cards"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AGW_ζ"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
     </Declaration>
     <Declaration>
@@ -417,9 +417,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#XXX_U_Punishment"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#AGW_ζ"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Verbalisation"/>
@@ -623,10 +620,10 @@
         <NamedIndividual IRI="#Why_Does_the_Lion_Roar"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#attackedBy"/>
+        <ObjectProperty IRI="#hasClass"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasClass"/>
+        <ObjectProperty IRI="#attackedBy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#J1_Brand_is_applied_to_the_body"/>
