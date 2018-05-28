@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.22)  28 MAY 2018 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.3.22)  28 MAY 2018 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,16 +578,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--199
 
  []
 
-[6] <UML.jpg, id=40, 1400.23125pt x 2938.98pt>
+[6] <UML.jpg, id=40, 1050.17343pt x 2204.235pt>
 File: UML.jpg Graphic file (type jpg)
  <use UML.jpg>
 Package pdftex.def Info: UML.jpg used on input line 212.
-(pdftex.def)             Requested size: 315.0598pt x 661.28682pt.
-
-Overfull \vbox (93.07845pt too high) has occurred while \output is active []
-
-
-[7 <./UML.jpg>]
+(pdftex.def)             Requested size: 236.29485pt x 495.96512pt.
+ [7 <./UML.jpg>]
 Overfull \hbox (48.49411pt too wide) in paragraph at lines 225--250
  [][] 
  []
@@ -636,31 +632,31 @@ File: Screen5.png Graphic file (type png)
 Package pdftex.def Info: Screen5.png used on input line 288.
 (pdftex.def)             Requested size: 326.21796pt x 186.69704pt.
 
-<Screen12.png, id=62, 1371.1225pt x 770.88pt>
+<Screen12.png, id=62, 977.15062pt x 558.58687pt>
 File: Screen12.png Graphic file (type png)
  <use Screen12.png>
 Package pdftex.def Info: Screen12.png used on input line 294.
-(pdftex.def)             Requested size: 342.77979pt x 192.71953pt.
+(pdftex.def)             Requested size: 244.28705pt x 139.64638pt.
 
-<screen11.png, id=63, 226.8475pt x 187.70125pt>
+<screen11.png, id=64, 226.8475pt x 187.70125pt>
 File: screen11.png Graphic file (type png)
  <use screen11.png>
 Package pdftex.def Info: screen11.png used on input line 307.
 (pdftex.def)             Requested size: 113.42346pt x 93.85039pt.
- [11 <./Screen5.png> <./Screen12.png>] <Screen6.png, id=67, 979.40906pt x 560.8
+ [11 <./Screen5.png> <./Screen12.png>] <Screen6.png, id=69, 979.40906pt x 560.8
 453pt>
 File: Screen6.png Graphic file (type png)
 
 <use Screen6.png>
 Package pdftex.def Info: Screen6.png used on input line 319.
 (pdftex.def)             Requested size: 244.85165pt x 140.21098pt.
- <Screen7.png, id=69, 978.65625pt x 559.33969pt>
+ <Screen7.png, id=70, 978.65625pt x 559.33969pt>
 File: Screen7.png Graphic file (type png)
 
 <use Screen7.png>
 Package pdftex.def Info: Screen7.png used on input line 327.
 (pdftex.def)             Requested size: 244.66347pt x 139.83458pt.
- <Screen8.png, id=70, 979.40906pt x 560.0925pt>
+ <Screen8.png, id=71, 979.40906pt x 560.0925pt>
 File: Screen8.png Graphic file (type png)
 
 <use Screen8.png>
@@ -703,9 +699,9 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt8.pfb>
-Output written on Ontologies.pdf (15 pages, 878247 bytes).
+Output written on Ontologies.pdf (15 pages, 903595 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 158 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
