@@ -1,0 +1,17 @@
+	 \subsection{Compentency Questions}
+	 Our final ontology will be able to answer the following questions. 
+	 
+	 	\begin{enumerate}
+	 		\item Which folk tales fall into a given motif class, e.g. ATU 70-99 Other Wild Animals? 
+	 		\item Which Dramatis Personae appear in a given tale? 
+	 		\item Which region do folk tales come from that fall into given motif classes? 
+	 		\item Which Proppian functions appear in African folk tales? 
+	 		\item How are Dramatis Personae interacting in the African folk tales, e.g. which figures use the "interdiction" relation?
+	 		\item Is there a dominating interaction between certain classes of Dramatis Personae, e.g. the villain causes harm to the hero's parents?
+	 		\item Which sequences of Proppian functions appear in the given tale?
+	 		\item Which Proppian functions follow a given function predominantely, i.e. are there patterns withing the Proppian sequences? 
+	 		\item Who is the editor of an anthology with folk tales from a given origin?
+	 		\item How are Proppian functions verbalised, i.e. which words are used to describe events that fall into a given function class? 
+	 	\end{enumerate}
+
+
