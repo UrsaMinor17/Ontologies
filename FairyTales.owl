@@ -31,6 +31,9 @@
         <ObjectProperty IRI="#isRewarded"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_MAN"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#B2_Hero_is_dispatched_directly"/>
     </Declaration>
     <Declaration>
@@ -44,6 +47,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#D3_Dying_or_deceased_person_requests_service"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_Younger_Brother"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_E1"/>
@@ -97,13 +103,16 @@
         <Class IRI="#K2_Object_of_search_is_obtained_by_several_personages_at_once"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_WOMAN"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TTO_Vuyi"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TPO_ε2"/>
+        <Class IRI="#Task"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Task"/>
+        <NamedIndividual IRI="#TPO_ε2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Children_of_Wax"/>
@@ -124,6 +133,9 @@
         <NamedIndividual IRI="#ABF_β3"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_Father"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ABF_λ"/>
     </Declaration>
     <Declaration>
@@ -134,6 +146,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#When_Hippo_Was_Hairy_And_Other_Tales_From_Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_Older_Brother"/>
     </Declaration>
     <Declaration>
         <Class IRI="#I4_He_loses_on_being_weighed"/>
@@ -295,6 +310,9 @@
         <NamedIndividual IRI="#AGW_ζ"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_↓"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#VI_η_Trickery"/>
     </Declaration>
     <Declaration>
@@ -362,6 +380,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#K10_A_captive_is_freed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_A3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_η3"/>
@@ -445,6 +466,9 @@
         <Class IRI="#w2_Married_hero_loses_his_wife,_resumed_marriage_as_result_of_quest"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#U_neg_Magnanimous_pardon"/>
     </Declaration>
     <Declaration>
@@ -464,6 +488,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#K9_A_slain_person_is_revived"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BAG_F"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F2_Agent_is_pointed_out"/>
@@ -529,6 +556,9 @@
         <NamedIndividual IRI="#TPO_Elephant"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_Girl"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rs9_He_is_saved_from_an_attempt_on_his_live"/>
     </Declaration>
     <Declaration>
@@ -565,6 +595,9 @@
         <ObjectProperty IRI="#proposedTo"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_A14"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#H3_They_play_cards"/>
     </Declaration>
     <Declaration>
@@ -583,6 +616,9 @@
         <Class IRI="#Pr2_He_demands_the_guilty_person"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_J"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AGW_Cannibal"/>
     </Declaration>
     <Declaration>
@@ -590,6 +626,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_δ2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_G"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#PreceededBy"/>
@@ -760,6 +799,9 @@
         <Class IRI="#B1_A_call_for_help"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_A8"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#W12_Bride_and_kingdom_are_awarded_at_once_or_upon_death_of_parents"/>
     </Declaration>
     <Declaration>
@@ -791,6 +833,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Origin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_Mother"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#takesPosessionFrom"/>
@@ -922,6 +967,9 @@
         <Class IRI="#T2_Hero_builds_a_marvelous_palace"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_W"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#WHH_Hippo"/>
     </Declaration>
     <Declaration>
@@ -958,6 +1006,9 @@
         <Class IRI="#Editor"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_Python"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A12_Villain_effects_a_substitution"/>
     </Declaration>
     <Declaration>
@@ -979,6 +1030,9 @@
         <ObjectProperty IRI="#recognizedByMeansof"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_I1"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GFC_W"/>
     </Declaration>
     <Declaration>
@@ -992,6 +1046,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
@@ -1031,6 +1088,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#H4_Weighing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_δ2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K4_Object_of_a_quest_is_obtained_as_direct_result_of_preceding_actions"/>
@@ -1153,6 +1213,9 @@
         <NamedIndividual IRI="#RWD_Zebra"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#WSP_K9"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#E7_Hero_performs_some_other_service"/>
     </Declaration>
     <Declaration>
@@ -1166,6 +1229,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#A_Bride_For_The_Hare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_γ"/>
     </Declaration>
     <Declaration>
         <Class IRI="#δ1_Interdiction_violated"/>
@@ -2505,6 +2571,34 @@
         <NamedIndividual IRI="#BAG_E"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
+        <NamedIndividual IRI="#BAG_F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVII_J_Branding"/>
+        <NamedIndividual IRI="#BAG_J"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Helper"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Donor"/>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XXXI_W_Wedding"/>
+        <NamedIndividual IRI="#BAG_W"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family_Member"/>
+        <NamedIndividual IRI="#BAG_WOMAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#γ2_Order_or_Command"/>
         <NamedIndividual IRI="#BAG_γ2"/>
     </ClassAssertion>
@@ -2897,6 +2991,62 @@
         <NamedIndividual IRI="#WLR_θ1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#A14_Villain_murders_someone"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#A3_Villain_pillages_or_spoils_crops"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#A8_Villain_demands_or_entices_his_victim"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family_Member"/>
+        <NamedIndividual IRI="#WSP_Father"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XV_G_Spatial_transference_between_two_kingdoms,_guidance"/>
+        <NamedIndividual IRI="#WSP_G"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Victim"/>
+        <NamedIndividual IRI="#WSP_Girl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I1_The_villain_is_beaten_in_open_combat"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#K9_A_slain_person_is_revived"/>
+        <NamedIndividual IRI="#WSP_K9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family_Member"/>
+        <NamedIndividual IRI="#WSP_Mother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#WSP_Older_Brother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#WSP_Younger_Brother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#II_γ_Interdiction"/>
+        <NamedIndividual IRI="#WSP_γ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#δ2_Order_or_command_carried_out"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anthology"/>
         <NamedIndividual IRI="#When_Hippo_Was_Hairy_And_Other_Tales_From_Africa"/>
     </ClassAssertion>
@@ -2919,6 +3069,10 @@
     <ClassAssertion>
         <Class IRI="#XX_↓_Return"/>
         <NamedIndividual IRI="#AGW_↓"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XX_↓_Return"/>
+        <NamedIndividual IRI="#BAG_↓"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#XI_↑_Departure"/>
@@ -3374,9 +3528,114 @@
         <NamedIndividual IRI="#Harold_Scheub"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_D"/>
+        <NamedIndividual IRI="#BAG_E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_D"/>
+        <NamedIndividual IRI="#BAG_γ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#BAG_D"/>
         <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_E"/>
+        <NamedIndividual IRI="#BAG_F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_E"/>
+        <NamedIndividual IRI="#BAG_D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BAG_E"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_F"/>
+        <NamedIndividual IRI="#BAG_J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_F"/>
+        <NamedIndividual IRI="#BAG_E"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BAG_F"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_J"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_J"/>
+        <NamedIndividual IRI="#BAG_F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BAG_J"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#reactsTo"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#testedBy"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interdicts"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_W"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BAG_W"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BAG_WOMAN"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_γ2"/>
+        <NamedIndividual IRI="#BAG_D"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies"/>
@@ -4389,6 +4648,156 @@
         <NamedIndividual IRI="#Why_Does_the_Lion_Roar"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+        <NamedIndividual IRI="#WSP_G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rescuedBy"/>
+        <NamedIndividual IRI="#WSP_Father"/>
+        <NamedIndividual IRI="#WSP_Older_Brother"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rescuedBy"/>
+        <NamedIndividual IRI="#WSP_Father"/>
+        <NamedIndividual IRI="#WSP_Younger_Brother"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_G"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_G"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_G"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#WSP_Girl"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+        <NamedIndividual IRI="#WSP_K9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+        <NamedIndividual IRI="#WSP_G"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_K9"/>
+        <NamedIndividual IRI="#WSP_I1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_K9"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#WSP_Older_Brother"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#causesHarm"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+        <NamedIndividual IRI="#WSP_Father"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interdicts"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+        <NamedIndividual IRI="#WSP_Girl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#WSP_Younger_Brother"/>
+        <NamedIndividual IRI="#WSP_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_γ"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_γ"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+        <NamedIndividual IRI="#WSP_γ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#editedBy"/>
         <NamedIndividual IRI="#When_Hippo_Was_Hairy_And_Other_Tales_From_Africa"/>
         <NamedIndividual IRI="#Nick_Greaves"/>
@@ -4422,6 +4831,21 @@
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#AGW_↓"/>
         <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+        <NamedIndividual IRI="#BAG_W"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+        <NamedIndividual IRI="#BAG_J"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+        <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#FollowedBy"/>
@@ -4682,6 +5106,71 @@
         <DataProperty IRI="#Title"/>
         <NamedIndividual IRI="#African_Tales"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">African Tales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A very old man was lying there.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_E"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He took out part of his food and gave it to the old man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_F"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The old man said to respond with &quot;I prefer a charm covered with the skin of a genet&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_J"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He was healed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_MAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The boy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_VERY_OLD_MAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Old man</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_W"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">he said to her, &quot;I will never live in marriage with you again&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_WOMAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">His wife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_WOMAN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">She</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_γ2"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Old man told him to take the food to a house that is old and tumble-down</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
@@ -5115,6 +5604,26 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">γδ2A3A8A14G I1K9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">WSP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kenya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Old Woman Her Sons And The Python</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
         <NamedIndividual IRI="#The_Punishment_Of_Greed"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">γ2δ1ε2ζ1η3θ2A2aE1I1</Literal>
     </DataPropertyAssertion>
@@ -5284,6 +5793,31 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lion was dreadfully upset to hear this news and told Hare to lead him to his brother as fast as possible.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_A14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The python then started eating the men, woman and children of the village.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_A3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gradually it ate up all the grain in the village.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_A8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The monster asked her for more food, saying it&apos;s hunger was not nearly satisfied.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_γ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">It said, &quot;I am hungry, will you give me enough food to satisfy my hunger?&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_δ2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">She replied, &quot;Certainly I will. Follow me to my village and I will give you as much as you can eat.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
         <NamedIndividual IRI="#When_Hippo_Was_Hairy_And_Other_Tales_From_Africa"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1997</Literal>
@@ -5352,6 +5886,11 @@
         <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#AGW_↓"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] and then led her back to their father’s new place.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BAG_↓"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">He returned to his own town</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
