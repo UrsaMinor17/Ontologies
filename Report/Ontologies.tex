@@ -80,11 +80,11 @@ We are using the ATU index for the classification of our motifs, ignoring the TM
 	 	%	\item Which region do folk tales come from that fall into given motif classes? 
 	 		\item Which Proppian functions appear in African folk tales? 
 	 		\item How are Dramatis Personae interacting in the African folk tales, e.g. which figures use the "interdiction" relation?
-	 		\item Is there a dominating interaction between certain classes of Dramatis Personae, e.g. the villain causes harm to the hero's parents?
 	 		\item Which sequences of Proppian functions appear in the given tale?
 	 		\item Which Proppian functions follow a given function predominantely, i.e. are there patterns withing the Proppian sequences? 
 	 		\item Who is the editor of an anthology with folk tales from a given origin?
 	 		\item How are Proppian functions verbalised, i.e. which words are used to describe events that fall into a given function class? 
+	 		\item Is there a dominating interaction between certain classes of Dramatis Personae, e.g. the villain causes harm to the hero's parents?
 	 	\end{enumerate}
 
 
@@ -299,29 +299,38 @@ We addeed the anthologies, folk tales, their ATU classes, their functions as wel
 \subsection{Answering the Competency Questions} 
 
 We can answer question number 1, ``Which folk tales fall into a given motif class, e.g. ATU 70-99 Other Wild Animals?" by using the DL Tab of the protege software and employing the Hermit Reasoner while querying the instances of our ontology. 
-\begin{figure}
+\begin{figure}[H]
 
 \centering
  	\includegraphics[scale=0.2]{Screen6.png}
- 	\caption{Instances HERE INSTANCES EINFUEGEN, Wrong bild}
+ 	\caption{DL Query for Competency Question 1}
 \end{figure}
 
 In the same manner, we can answer the second question ``Which Dramatis Personae appear in a given tale?". 
-\begin{figure}
+\begin{figure} [H]
 
 \centering
  	\includegraphics[scale=0.2]{Screen7.png}
- 	\caption{Instances HERE INSTANCES EINFUEGEN, Wrong bild}
+ 	\caption{DL Query for Competency Question 2}
 \end{figure}
 The answer to question 3 could be constructed as follows: 
-\begin{figure}
+\begin{figure} [H]
 \centering
  	\includegraphics[scale=0.2]{Screen8.png}
- 	\caption{Instances HERE INSTANCES EINFUEGEN, Wrong bild}
+ 	\caption{DL Query for Competency Question 3}
 \end{figure}
-    
 
+We can solve the question about the interaction between the Dramatis Personae, like in question 4, by querying the use of the object properties that relate to the respective function, e.g. \textit{"interdicts some Hero"}. We can query the Proppian functions of a given tale as shown in the following figure. 
 
+\begin{figure} [H]
+\centering
+ 	\includegraphics[scale=0.2]{Screen8.png}
+ 	\caption{DL Query for Competency Question 5}
+\end{figure}
+
+The more sophisticated queries such as one that would answer question number 6 can be answered using more advanced SQL-based tools. 
+
+\newpage
 \section{Conclusion and Outview}
 We built a sophisticated ontology that represents the Proppian theory about the Morphology of the Folk Tale.\cite{propp1968} It also allows users to comfortably add more stories. The ontology can be alonestanding, or it can be connected to Declerck et.al.'s \cite{Declerck2017} work once their fairy tale motif ontology is published. In the long term, modelling the relationship between the functions, and the Dramatis Personae, like in the example in section \ref{Rel} could be useful. Also, adding more annotations with comments about the usage of classes of Proppian functions and their connection to the relations as described in section \ref{Rel} would certainly increase the usability of the system. Furthermore, Propp also made statements about how characters make their appearance into the course of action, a feature that could be added to the ontology in the future. 
  The more fairy tales of different origin are added, the more and complexer the deductions about the structure and verbalisation of African folk tales can be made. Certainly, these deductions can only be made with the help of scholars from folklorist or literary studies. Furthermore, it would be interesting to compare these findings about African folk tales to studies of folk tales of different origin, such as Russian, Central European or Native American tales. 
