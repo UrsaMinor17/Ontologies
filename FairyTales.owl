@@ -34,10 +34,10 @@
         <NamedIndividual IRI="#BAG_MAN"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#B2_Hero_is_dispatched_directly"/>
+        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D2_Donor_greets_and_interrogates_hero"/>
+        <Class IRI="#B2_Hero_is_dispatched_directly"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Publisher"/>
@@ -97,6 +97,9 @@
         <Class IRI="#B3_Hero_allowed_to_part_from_home"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TTO_Rs2"/>
     </Declaration>
     <Declaration>
@@ -109,10 +112,10 @@
         <NamedIndividual IRI="#TTO_Vuyi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Task"/>
+        <NamedIndividual IRI="#TPO_ε2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TPO_ε2"/>
+        <Class IRI="#Task"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Children_of_Wax"/>
@@ -137,6 +140,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_λ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_C"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Seeker"/>
@@ -178,10 +184,13 @@
         <NamedIndividual IRI="#TCJ_Wildcat"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#aquires"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pr3_He_pursues_the_hero,_rapidly_transforming_himself_into_various_animals"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#aquires"/>
+        <NamedIndividual IRI="#TTS_Father"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Description"/>
@@ -197,6 +206,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#F8_Agent_is_seized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_ζ3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_λ"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ε1_Reconnaissance_by_the_villain_to_obtain_information_about_the_hero"/>
@@ -226,16 +241,19 @@
         <NamedIndividual IRI="#HCS_y2"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MB_I"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TTO_Pr1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Desired_Object"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TPO_η3"/>
+        <Class IRI="#B7_A_lament_is_sung"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#B7_A_lament_is_sung"/>
+        <NamedIndividual IRI="#TPO_η3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#D8_A_hostile_creature_attempts_to_destroy_the_hero"/>
@@ -280,19 +298,19 @@
         <Class IRI="#A17_Villain_makes_a_threat_of_cannibalism"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_η"/>
+        <ObjectProperty IRI="#combats"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#combats"/>
+        <NamedIndividual IRI="#AGW_η"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WLR_Hare"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#reconnaissance"/>
+        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#D6_Disputants_request_a_division_of_property"/>
+        <ObjectProperty IRI="#reconnaissance"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HCS_Speed"/>
@@ -316,10 +334,16 @@
         <Class IRI="#VI_η_Trickery"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BMC_δ"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TTO_γ2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXI_Pr_Pursuit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_H"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A4_Villain_seizes_the_daylight"/>
@@ -355,19 +379,16 @@
         <Class IRI="#D10_The_hero_is_shown_a_magical_agent_offered_for_exchange"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rs3_Hero_flees_and_turns_himself_into_objects_making_him_unrecognizable"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#relatedTo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ABF_Lion"/>
+        <Class IRI="#Rs3_Hero_flees_and_turns_himself_into_objects_making_him_unrecognizable"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WHH_η1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AGW_I"/>
+        <NamedIndividual IRI="#ABF_Lion"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stories_about_a_Fool"/>
@@ -376,16 +397,25 @@
         <Class IRI="#T1_New_appearance_is_directly_effected_by_means_of_the_magical_action_of_a_helper"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AGW_I"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#The_Tree-climbing_Jackal"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K10_A_captive_is_freed"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#WSP_A3"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_η3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WSP_A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_ζ2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_I1"/>
@@ -397,10 +427,16 @@
         <NamedIndividual IRI="#The_Old_Woman_Her_Sons_And_The_Python"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TTS_U"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#WHH_J1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WLR_θ1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brave_Hunter"/>
     </Declaration>
     <Declaration>
         <Class IRI="#γ1_Interdiction"/>
@@ -412,10 +448,10 @@
         <NamedIndividual IRI="#AGW_H"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#w0_Monetary_reward_or_compensation_in_place_of_princess&apos;_hand"/>
+        <ObjectProperty IRI="#isReversed"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isReversed"/>
+        <Class IRI="#w0_Monetary_reward_or_compensation_in_place_of_princess&apos;_hand"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Key"/>
@@ -448,13 +484,16 @@
         <NamedIndividual IRI="#HCS_Cheetah"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_E"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Harold_Scheub"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WHH_θ1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BAG_E"/>
+        <NamedIndividual IRI="#MB_The_Boy"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E5_He_shows_mercy_to_a_suppliant"/>
@@ -475,6 +514,9 @@
         <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MB_K"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
     </Declaration>
     <Declaration>
@@ -493,10 +535,10 @@
         <NamedIndividual IRI="#BAG_F"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#F2_Agent_is_pointed_out"/>
+        <NamedIndividual IRI="#JGM_T"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#JGM_T"/>
+        <Class IRI="#F2_Agent_is_pointed_out"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Princess&apos;_Father"/>
@@ -506,6 +548,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Dispatcher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_η3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#K7_Object_is_caught"/>
@@ -526,10 +571,10 @@
         <NamedIndividual IRI="#ABF_ε3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ABF_W1"/>
+        <Class IRI="#I6_He_is_banished_directly"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#I6_He_is_banished_directly"/>
+        <NamedIndividual IRI="#ABF_W1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A11_Villain_casts_spell_upon_someone_or_something"/>
@@ -553,7 +598,13 @@
         <NamedIndividual IRI="#JGM_A6"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TTS_β"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TPO_Elephant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magic_Objects"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WSP_Girl"/>
@@ -568,10 +619,19 @@
         <Class IRI="#F1_Agent_is_directly_transferred"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#frees"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rs7_He_avoids_the_temptations_of_transformed_she-dragons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_Girl"/>
@@ -601,6 +661,9 @@
         <Class IRI="#H3_They_play_cards"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BMC_A"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GFC_K"/>
     </Declaration>
     <Declaration>
@@ -613,22 +676,25 @@
         <Class IRI="#Author"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Pr2_He_demands_the_guilty_person"/>
+        <NamedIndividual IRI="#COW_γ"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BAG_J"/>
+        <Class IRI="#Pr2_He_demands_the_guilty_person"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_Cannibal"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BAG_J"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#λ_Preliminary_misfortune_caused_by_a_deceitful_agreement"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#ABF_δ2"/>
+        <NamedIndividual IRI="#WSP_G"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#WSP_G"/>
+        <NamedIndividual IRI="#ABF_δ2"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#PreceededBy"/>
@@ -640,10 +706,16 @@
         <ObjectProperty IRI="#helpsEnemy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BH_β"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#d6_Hero_proposes_division"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_B"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COW_δ"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WLR_Bees"/>
@@ -652,10 +724,10 @@
         <Class IRI="#a4_Specific_form_of_something_else_is_lacking"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
+        <Class IRI="#A9_Villain_expells_someone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A9_Villain_expells_someone"/>
+        <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#deceived"/>
@@ -664,10 +736,10 @@
         <Class IRI="#Victim"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TPO_A2a"/>
+        <Class IRI="#I2_He_is_defeated_in_a_contest"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#I2_He_is_defeated_in_a_contest"/>
+        <NamedIndividual IRI="#TPO_A2a"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#resolves"/>
@@ -689,6 +761,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#H2_They_engage_in_a_competition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Supernatural_or_Enchanted_Spouse_or_Other_Relative"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pursuedBy"/>
@@ -724,16 +799,19 @@
         <NamedIndividual IRI="#RWD_δ1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MB_β"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#gainsInformation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Family_Member"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#A2_Villain_takes_away_magical_agent"/>
+        <NamedIndividual IRI="#WLR_Bee_Stings"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#WLR_Bee_Stings"/>
+        <Class IRI="#A2_Villain_takes_away_magical_agent"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#How_Cheetah_got_his_Speed"/>
@@ -754,10 +832,16 @@
         <Class IRI="#Donor"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TCJ_Rs8"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_↓"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TCJ_Rs8"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#When_Hippo_was_Hairy"/>
@@ -766,10 +850,13 @@
         <NamedIndividual IRI="#AGW_Mother"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K8_Spell_of_a_person_is_broken"/>
+        <NamedIndividual IRI="#MB_↓"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E6_He_completes_and_appotionment_and_reconciles_the_disputants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K8_Spell_of_a_person_is_broken"/>
     </Declaration>
     <Declaration>
         <Class IRI="#δ2_Order_or_command_carried_out"/>
@@ -799,6 +886,9 @@
         <Class IRI="#B1_A_call_for_help"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#MB_↑"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#WSP_A8"/>
     </Declaration>
     <Declaration>
@@ -815,6 +905,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#T4_Rationalized_and_humorous_forms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_ε"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WLR_H1"/>
@@ -850,16 +943,28 @@
         <NamedIndividual IRI="#Guinea_Fowl_Child"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BMC_K"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#WLR_η3"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pr4_Pursuers_turn_into_alluring_objects_and_place_themselves_in_the_path_of_the_hero"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#JGM_J1"/>
+        <NamedIndividual IRI="#COW_C"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TTS_a"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#HCS_Tsessebe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JGM_J1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TTS_ε2"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Nick_Greaves"/>
@@ -872,6 +977,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Pr6_The_pursuer_attempts_to_kill_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_a2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Proppian_Function"/>
@@ -901,6 +1009,9 @@
         <ObjectProperty IRI="#FollowedBy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#COW_a"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TCJ_Pr5"/>
     </Declaration>
     <Declaration>
@@ -908,6 +1019,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#E4_He_frees_a_captive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMC_I"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ABF_η1"/>
@@ -919,13 +1033,16 @@
         <NamedIndividual IRI="#HCS_B4"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GFC_A"/>
+        <NamedIndividual IRI="#BH_ε2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XXX_U_Punishment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GFC_A"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Verbalisation"/>
@@ -958,13 +1075,25 @@
         <Class IRI="#G6_He_follows_bloody_tracks"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BMC_γ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_Hunter"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ζ1_Villain_receives_information_about_the_hero"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#threatens"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TTS_C"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T2_Hero_builds_a_marvelous_palace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TTS_K6"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BAG_W"/>
@@ -1048,19 +1177,19 @@
         <Class IRI="#F9_Various_characters_place_themselves_at_the_disposal_of_the_hero"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BAG_OLD_MAN"/>
+        <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
+        <NamedIndividual IRI="#BAG_OLD_MAN"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_β"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasClass"/>
+        <ObjectProperty IRI="#attackedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#attackedBy"/>
+        <ObjectProperty IRI="#hasClass"/>
     </Declaration>
     <Declaration>
         <Class IRI="#H1_They_fight_in_an_open_field"/>
@@ -1075,34 +1204,43 @@
         <Class IRI="#θ2_Hero_mechanically_reacts_to_the_employment_of_magical_or_other_means"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TTS_F"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rs8_He_does_not_allow_himself_to_be_devoured"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#XXIX_T_Transfiguration"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#F6_Agent_suddly_appears_of_its_own_accord"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HCS_E7"/>
+        <Class IRI="#XXIX_T_Transfiguration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#H4_Weighing"/>
+        <NamedIndividual IRI="#HCS_E7"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WSP_δ2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#K4_Object_of_a_quest_is_obtained_as_direct_result_of_preceding_actions"/>
+        <Class IRI="#H4_Weighing"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#G1_Hero_flies_through_the_air"/>
+        <Class IRI="#K4_Object_of_a_quest_is_obtained_as_direct_result_of_preceding_actions"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AGW_Brother"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#G1_Hero_flies_through_the_air"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pr1_Pursuer_flies_after_the_hero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MB_Other_Boys"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A6_Villain_causes_bodily_injury"/>
@@ -1126,6 +1264,9 @@
         <Class IRI="#XV_G_Spatial_transference_between_two_kingdoms,_guidance"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BH_H"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A19_Villain_declares_war"/>
     </Declaration>
     <Declaration>
@@ -1141,22 +1282,28 @@
         <NamedIndividual IRI="#ABF_Hare"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#COW_K"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#A18_Villain_torments_at_night_Vampirism"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E8_Hero_saves_himself_from_an_attempt_on_his_life"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#marries"/>
+        <NamedIndividual IRI="#Wild_Animals"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Wild_Animals"/>
+        <ObjectProperty IRI="#marries"/>
     </Declaration>
     <Declaration>
         <Class IRI="#E10_Hero_agrees_to_an_exhange_but_immediately_employs_the_magic_power_of_the_object_against_the_barterer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#A14_Villain_murders_someone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BH_I"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#publishedIn"/>
@@ -1192,19 +1339,19 @@
         <Class IRI="#III_δ_Violation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Rs5_Hero_is_hidden_by_blacksmiths"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#D7_Other_requests"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#WHH_A6"/>
+        <Class IRI="#Rs5_Hero_is_hidden_by_blacksmiths"/>
     </Declaration>
     <Declaration>
         <Class IRI="#W1_Hero_marries_without_throne"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ε3_Reconnaissance_by_other_persons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WHH_A6"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interrogated"/>
@@ -1234,13 +1381,13 @@
         <NamedIndividual IRI="#WSP_γ"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#AGW_↓"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#δ1_Interdiction_violated"/>
     </Declaration>
     <Declaration>
         <Class IRI="#XIII_E_The_hero&apos;s_reaction"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#AGW_↓"/>
     </Declaration>
     <Declaration>
         <Class IRI="#a3_Wondrous_object_is_lacking"/>
@@ -2548,11 +2695,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
         <NamedIndividual IRI="#A_Bride_For_The_Hare"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tale"/>
         <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anthology"/>
@@ -2603,8 +2758,92 @@
         <NamedIndividual IRI="#BAG_γ2"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#XVI_H_Struggle"/>
+        <NamedIndividual IRI="#BH_H"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
+        <NamedIndividual IRI="#BH_Hunter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVIII_I_Victory"/>
+        <NamedIndividual IRI="#BH_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I_β_Absentation"/>
+        <NamedIndividual IRI="#BH_β"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ε2_Inverted_Reconnaissance,Reconnaissance_by_the_hero_to_obtain_information_about_the_villain"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ζ2_Hero_receives_information_about_the_villain"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#η3_Deception_or_coercion"/>
+        <NamedIndividual IRI="#BH_η3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#λ_Preliminary_misfortune_caused_by_a_deceitful_agreement"/>
+        <NamedIndividual IRI="#BH_λ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIII_A_Villainy"/>
+        <NamedIndividual IRI="#BMC_A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVIII_I_Victory"/>
+        <NamedIndividual IRI="#BMC_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XIX_K_Liquidation_of_Lack"/>
+        <NamedIndividual IRI="#BMC_K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#II_γ_Interdiction"/>
+        <NamedIndividual IRI="#BMC_γ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#III_δ_Violation"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Anthology"/>
         <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#X_C_Beginning_Counteraction"/>
+        <NamedIndividual IRI="#COW_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XIX_K_Liquidation_of_Lack"/>
+        <NamedIndividual IRI="#COW_K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIIIa_a_Villainy_(Lack)"/>
+        <NamedIndividual IRI="#COW_a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#II_γ_Interdiction"/>
+        <NamedIndividual IRI="#COW_γ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#III_δ_Violation"/>
+        <NamedIndividual IRI="#COW_δ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Anthology"/>
@@ -2703,6 +2942,10 @@
         <NamedIndividual IRI="#How_Jackal_got_his_Markings"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ATU_Class"/>
+        <NamedIndividual IRI="#Husband"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#A6_Villain_causes_bodily_injury"/>
         <NamedIndividual IRI="#JGM_A6"/>
     </ClassAssertion>
@@ -2733,6 +2976,54 @@
     <ClassAssertion>
         <Class IRI="#θ1_Hero_agrees_to_all_the_persuasions"/>
         <NamedIndividual IRI="#JGM_θ1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#X_C_Beginning_Counteraction"/>
+        <NamedIndividual IRI="#MB_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVI_H_Struggle"/>
+        <NamedIndividual IRI="#MB_H"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XVIII_I_Victory"/>
+        <NamedIndividual IRI="#MB_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XIX_K_Liquidation_of_Lack"/>
+        <NamedIndividual IRI="#MB_K"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
+        <NamedIndividual IRI="#MB_Other_Boys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hero"/>
+        <NamedIndividual IRI="#MB_The_Boy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#a2_Lack_of_magical_agent"/>
+        <NamedIndividual IRI="#MB_a2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I_β_Absentation"/>
+        <NamedIndividual IRI="#MB_β"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IV_ε_Reconnaissance"/>
+        <NamedIndividual IRI="#MB_ε"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ζ3_Information_received_by_other_means"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATU_Class"/>
+        <NamedIndividual IRI="#Magic_Objects"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tale"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Editor"/>
@@ -2781,6 +3072,10 @@
     <ClassAssertion>
         <Class IRI="#ATU_Class"/>
         <NamedIndividual IRI="#Stories_about_a_Fool"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ATU_Class"/>
+        <NamedIndividual IRI="#Supernatural_or_Enchanted_Spouse_or_Other_Relative"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#E1_Hero_withstands_or_does_not_withstand_a_test"/>
@@ -2897,6 +3192,42 @@
     <ClassAssertion>
         <Class IRI="#ζ2_Hero_receives_information_about_the_villain"/>
         <NamedIndividual IRI="#TTO_ζ2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#X_C_Beginning_Counteraction"/>
+        <NamedIndividual IRI="#TTS_C"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XIV_F_Provision_or_receipt_of_a_magical_agent"/>
+        <NamedIndividual IRI="#TTS_F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Villain"/>
+        <NamedIndividual IRI="#TTS_Father"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#K6_Use_of_magical_agent_overcomes_poverty"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XXX_U_Punishment"/>
+        <NamedIndividual IRI="#TTS_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VIIIa_a_Villainy_(Lack)"/>
+        <NamedIndividual IRI="#TTS_a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#I_β_Absentation"/>
+        <NamedIndividual IRI="#TTS_β"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IV_ε_Reconnaissance"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ζ2_Hero_receives_information_about_the_villain"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Tale"/>
@@ -3075,12 +3406,28 @@
         <NamedIndividual IRI="#BAG_↓"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#XX_↓_Return"/>
+        <NamedIndividual IRI="#BH_↓"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#XI_↑_Departure"/>
         <NamedIndividual IRI="#GFC_↑"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#XX_↓_Return"/>
         <NamedIndividual IRI="#GFC_↓"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XI_↑_Departure"/>
+        <NamedIndividual IRI="#MB_↑"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XX_↓_Return"/>
+        <NamedIndividual IRI="#MB_↓"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XI_↑_Departure"/>
+        <NamedIndividual IRI="#TTS_↑"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#FollowedBy"/>
@@ -3504,6 +3851,16 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <NamedIndividual IRI="#Realistic_Tales"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
         <NamedIndividual IRI="#A_Bride_For_The_Hare"/>
         <NamedIndividual IRI="#Wild_Animals"/>
     </ObjectPropertyAssertion>
@@ -3520,6 +3877,16 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#publishedIn"/>
         <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+        <NamedIndividual IRI="#Magic_Objects"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
         <NamedIndividual IRI="#Children_of_Wax"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -3643,9 +4010,274 @@
         <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_H"/>
+        <NamedIndividual IRI="#BH_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_H"/>
+        <NamedIndividual IRI="#BH_λ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_H"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BH_Hunter"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#combats"/>
+        <NamedIndividual IRI="#BH_Hunter"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_I"/>
+        <NamedIndividual IRI="#BH_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_I"/>
+        <NamedIndividual IRI="#BH_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_I"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#defeats"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+        <NamedIndividual IRI="#BH_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_β"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_β"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+        <NamedIndividual IRI="#BH_β"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+        <NamedIndividual IRI="#BH_η3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_η3"/>
+        <NamedIndividual IRI="#BH_λ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_η3"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_η3"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BH_λ"/>
+        <NamedIndividual IRI="#BH_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_λ"/>
+        <NamedIndividual IRI="#BH_λ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_λ"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BMC_A"/>
+        <NamedIndividual IRI="#BMC_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BMC_A"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BMC_A"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BMC_I"/>
+        <NamedIndividual IRI="#BMC_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BMC_I"/>
+        <NamedIndividual IRI="#BMC_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BMC_I"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BMC_K"/>
+        <NamedIndividual IRI="#BMC_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BMC_K"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BMC_γ"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BMC_γ"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+        <NamedIndividual IRI="#BMC_A"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+        <NamedIndividual IRI="#BMC_γ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#editedBy"/>
         <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
         <NamedIndividual IRI="#Phyllis_Savoury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#COW_C"/>
+        <NamedIndividual IRI="#COW_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#COW_C"/>
+        <NamedIndividual IRI="#COW_a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#COW_C"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#COW_K"/>
+        <NamedIndividual IRI="#COW_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#COW_K"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#COW_a"/>
+        <NamedIndividual IRI="#COW_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#COW_a"/>
+        <NamedIndividual IRI="#COW_δ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#COW_a"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#COW_γ"/>
+        <NamedIndividual IRI="#COW_δ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#COW_γ"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#COW_δ"/>
+        <NamedIndividual IRI="#COW_a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#COW_δ"/>
+        <NamedIndividual IRI="#COW_γ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#COW_δ"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <NamedIndividual IRI="#Supernatural_or_Enchanted_Spouse_or_Other_Relative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#editedBy"/>
@@ -3953,11 +4585,6 @@
         <NamedIndividual IRI="#JGM_Fire"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#PreceededBy"/>
-        <NamedIndividual IRI="#JGM_T"/>
-        <NamedIndividual IRI="#JGM_T"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#JGM_T"/>
         <NamedIndividual IRI="#How_Jackal_got_his_Markings"/>
@@ -3986,6 +4613,146 @@
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#JGM_θ1"/>
         <NamedIndividual IRI="#How_Jackal_got_his_Markings"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_C"/>
+        <NamedIndividual IRI="#MB_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_C"/>
+        <NamedIndividual IRI="#MB_a2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_C"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_H"/>
+        <NamedIndividual IRI="#MB_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_H"/>
+        <NamedIndividual IRI="#MB_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_H"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_I"/>
+        <NamedIndividual IRI="#MB_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_I"/>
+        <NamedIndividual IRI="#MB_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_I"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_K"/>
+        <NamedIndividual IRI="#MB_↓"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_K"/>
+        <NamedIndividual IRI="#MB_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_K"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#MB_Other_Boys"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#combats"/>
+        <NamedIndividual IRI="#MB_Other_Boys"/>
+        <NamedIndividual IRI="#MB_The_Boy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#MB_The_Boy"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_a2"/>
+        <NamedIndividual IRI="#MB_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_a2"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_a2"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_β"/>
+        <NamedIndividual IRI="#MB_ε"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_β"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_ε"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_ε"/>
+        <NamedIndividual IRI="#MB_β"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_ε"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+        <NamedIndividual IRI="#MB_a2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+        <NamedIndividual IRI="#MB_ε"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasClass"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <NamedIndividual IRI="#Wild_Animals_and_Humans"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#publishedIn"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <NamedIndividual IRI="#Children_of_Wax"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#FollowedBy"/>
@@ -4396,6 +5163,121 @@
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#TTO_ζ2"/>
         <NamedIndividual IRI="#The_Tale_Of_Ngcede"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_C"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_C"/>
+        <NamedIndividual IRI="#TTS_a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_C"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_F"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_F"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_F"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appearsIn"/>
+        <NamedIndividual IRI="#TTS_Father"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+        <NamedIndividual IRI="#TTS_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+        <NamedIndividual IRI="#TTS_F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_U"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_U"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_a"/>
+        <NamedIndividual IRI="#TTS_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_a"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_a"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_β"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_β"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+        <NamedIndividual IRI="#TTS_β"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+        <NamedIndividual IRI="#TTS_a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasClass"/>
@@ -4848,6 +5730,16 @@
         <NamedIndividual IRI="#The_Boy_And_The_Girl"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#BH_↓"/>
+        <NamedIndividual IRI="#BH_I"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#BH_↓"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#FollowedBy"/>
         <NamedIndividual IRI="#GFC_↑"/>
         <NamedIndividual IRI="#GFC_H"/>
@@ -4876,6 +5768,46 @@
         <ObjectProperty IRI="#applies"/>
         <NamedIndividual IRI="#GFC_↓"/>
         <NamedIndividual IRI="#Guinea_Fowl_Child"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#MB_↑"/>
+        <NamedIndividual IRI="#MB_H"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_↑"/>
+        <NamedIndividual IRI="#MB_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_↑"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#MB_↓"/>
+        <NamedIndividual IRI="#MB_K"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#MB_↓"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#FollowedBy"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+        <NamedIndividual IRI="#TTS_F"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#PreceededBy"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+        <NamedIndividual IRI="#TTS_C"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#applies"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
@@ -5054,6 +5986,26 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">γδAIK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BMC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#A_Blind_Man_Catches_A_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Blind Man catches a Bird</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
         <NamedIndividual IRI="#A_Bride_For_The_Hare"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">β3γ2δ2ε3η1η3λA14E1I1I2W1</Literal>
     </DataPropertyAssertion>
@@ -5091,6 +6043,26 @@
         <DataProperty IRI="#Title"/>
         <NamedIndividual IRI="#A_Girl_Who_Lived_In_A_Cave"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Girl Who Lived In A Cave</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">βε2ζ2aC↑FK6U</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TTS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#A_Tree_To_Sing_to"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A Tree to Sing to</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
@@ -5173,6 +6145,76 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Old man told him to take the food to a house that is old and tumble-down</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_H"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He tried to rise to his feet, but he was not quick enough.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_I"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Before he could reach for his spear, the leopard mother was upon him.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">a beautiful woman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_Leopard_Mother"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">she</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_β"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">For this reason, he announced to all his friends that at the ceremony he would take the life of a leopard cub, as a sacrifice for the future of his young son.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_ε2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">She searched through the forest for them, looking under all the trees and bushes and into all the secret forest places which leopards like to lie in.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_ζ2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">When she saw the tracks that the hunter had made as he left the forest, she knew in her heart that a terrible thing had happened to her children […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_η3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">By the time she reached the hunter’s house she was one of the most beautiful women who had ever walked past that place.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_λ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">These words pleased the hunter, who shouted out to her that she could spend that night in his hut.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BMC_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Then, quickly substituting his own bird, he passed it to the blind man and put the coloured bird into his own pouch.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BMC_I"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The words shocked the young man and made him ashamed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BMC_K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rising to his feet, he fetched his pouch, took out the brightly-coloured bird and gave it back to the blind man.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BMC_γ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The blind man thought that he had disguised his trap, […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BMC_δ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] but he did not see that he had failed to do so and any bird could tell that there was a trap there.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
         <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1974</Literal>
@@ -5186,6 +6228,71 @@
         <DataProperty IRI="#Title"/>
         <NamedIndividual IRI="#Bantu_Folk_Tales_From_Southern_Africa"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bantu Folk Tales From Southern Africa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">βε2ζ2η3λHI↓</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BH</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Brave_Hunter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Brave Hunter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#COW_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">When night came, the children left their hut and went to the spot where Ngwabi had fallen.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#COW_K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Then, as the sun itself rose over the fields, the great bird which they had made suddenly moved its wings and launched itself into the air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#COW_a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The sun burned down on Ngwabi and before he had taken more than a few steps he felt all the strength drain from his limbs.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#COW_γ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The other children screamed, and some of them tried o grab at him as he left the hut, […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#COW_δ"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] but they failed to stop their brother and he was gone.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">γδaCK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">COW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Children_Of_Wax_Tale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Children of Wax</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Date"/>
@@ -5423,6 +6530,81 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">So Jackal allowed the “boy” to climb upon his back, and set off</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The boy was frightened of telling his father what had happened, and so he went out into the hills to look for another bird which was exactly the same as the bird which had escaped.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_H"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">They seized two large sticks which were nearby […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_I"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] drove the other boys away […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_K"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">At once they knew it was the milk bird. Gently, the boy lifted up the milk bird […]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_Other_Boys"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">they</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_The_Boy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">he</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_a2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">And with that, he flew up into the air and had soon disappeared.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_β"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A man who had two clever children – a boy and a girl – used to go to a place where he knew there were succulent and fruits to be picked.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_ε"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">At the end of the month, the children began to  be inquisitive about the source of the milk.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_ζ3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In this way they would know where the milk came from and their curiosity would be satisfied.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATU_Number"/>
+        <NamedIndividual IRI="#Magic_Objects"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">560-649</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#FunctionSequence"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">βεζ3a2C↑HIK↓</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Key"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Origin"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ndebele</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Milk_Bird"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Milk Bird</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#ATU_Number"/>
         <NamedIndividual IRI="#Other_Wild_Animals"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">70-99</Literal>
@@ -5471,6 +6653,11 @@
         <DataProperty IRI="#ATU_Number"/>
         <NamedIndividual IRI="#Stories_about_a_Fool"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1200-1349</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATU_Number"/>
+        <NamedIndividual IRI="#Supernatural_or_Enchanted_Spouse_or_Other_Relative"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">400-459</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
@@ -5581,6 +6768,56 @@
         <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#TTO_ζ2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The villan looked proudly at his strong musles, and stretched his wings so that all could see his power</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_C"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The next day, when Sibanda made his secret way to the river bed, he was followed by the whole family.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_F"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Assembling all her children beneath the branches of the tree, she sang out to the trunk and the leaves:</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_Father"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sibanda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_Father"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">the father</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_K6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">For a few seconds it seemed as if it would tear itself out by its roots, but after a while it calmed down and began to shed food for the hungry family.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_U"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He tried some more, but had to do the same thing again, for everythng that the tree gave him tasted bitter in his mouth.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_a"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He eats while his family grows thin.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_β"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Each morning, Sibanda would sneak off to his food tree and sing to it about the greediness of his wife and family.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_ε2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This girl, who began to watch her father getting fatter and fatter, began to wonder how it was that a man could grow fat if he never ate.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_ζ2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">As usual, the tree would disgorged its food, and the astonished girl watched her father eating with the speed of a man who has not eaten for many weeks.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#FunctionSequence"/>
@@ -5894,6 +7131,11 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#BH_↓"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The could not see, of course, the leopard mother playing with her cubs in the forest nor hear them singing their leopard songs in the darkness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#GFC_↑"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] and the following day he arose early and flew to the highest tree that overlooked the fields of the new wife.</Literal>
     </DataPropertyAssertion>
@@ -5901,6 +7143,21 @@
         <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#GFC_↓"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Soon they were back in the field, eating the last of the grain that was left.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_↑"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">He searched in all the places he knew birds liked, but in none of these did he find a bird which looked at all similar.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#MB_↓"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] and carried it home.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#TTS_↑"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">[…] he was followed by the whole family.</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#FollowedBy"/>
