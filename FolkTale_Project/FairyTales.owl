@@ -7056,6 +7056,11 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_G"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">She told them to bring their swords and, taking them to a path near the house, hid them in the bushes close to the path.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#WSP_Girl"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">child</Literal>
     </DataPropertyAssertion>
@@ -7063,6 +7068,11 @@
         <DataProperty IRI="#Verbalisation"/>
         <NamedIndividual IRI="#WSP_Girl"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">she</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Verbalisation"/>
+        <NamedIndividual IRI="#WSP_K9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">They saw a large number of men, women, children and goats emerge from the body of the dead python</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Verbalisation"/>
